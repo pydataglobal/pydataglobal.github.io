@@ -1,0 +1,422 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<title>PyData Global</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/schedule-style.css" />
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<script>
+  (function (w,d,s,o,f,js,fjs) {
+  w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+  js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+  js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+  }(window, document, 'script', 'plausible', 'https://plausible.io/js/p.js'));
+
+  plausible('page')
+</script>
+</head>
+
+
+<body>
+    <!-- Page Wrapper --> <style>
+	.meetup-link {
+		font-size: 11px !important;
+		margin-left: 15px
+	}
+	.meetup-list {
+		margin-bottom: 0px;
+	}
+</style>
+
+<div id="page-wrapper">
+
+	<!-- Header -->
+	<header id="header" >
+		<h1><a href="https://global.pydata.org//">PyData Global</a></h1>
+		<nav id="nav">
+			<ul>
+				<li class="special">
+					<a href="#menu" class="menuToggle"><span>Menu</span></a>
+					<div id="menu">
+						<ul>
+							   
+							<li><a href="https://global.pydata.org/">Home</a></li>
+							       
+							<li><a href="https://global.pydata.org/pages/code_of_conduct.html">Code of Conduct</a></li>
+							    
+							<li><a href="https://global.pydata.org/pages/numfocus.html">About NumFocus</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sponsors.html">Sponsor PyData Global</a></li>
+							 
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header><script>
+    function getCompareDate() {
+        var d = new Date(),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+        return [year, month, day].join('');
+    }
+    var future_elements = document.querySelectorAll('[future-date]');
+    Array.prototype.forEach.call(future_elements, function(el, i){
+        if(el.getAttribute('future-date').split('-').join('') < getCompareDate()) el.remove();
+    });
+
+    var past_elements = document.querySelectorAll('[past-date]');
+    Array.prototype.forEach.call(past_elements, function(el, i){
+        if(el.getAttribute('past-date').split('-').join('') > getCompareDate()) el.remove();
+    });
+</script>
+
+
+
+    <!-- Main -->
+    <article id="main">
+        <header>
+            <h2>About NumFocus</h2>
+            <p></p>
+        </header>
+        <section class="wrapper style5">
+            <div class="inner">
+
+                <h2 id="numfocus">NumFocus</h2>
+<p>The mission of NumFOCUS is to promote sustainable high-level programming languages, open code development, 
+and reproducible scientific research. We accomplish this mission through our educational programs and events as 
+well as through fiscal sponsorship of open source scientific computing projects. We aim to increase collaboration and 
+communication within the data science and scientific computing community.</p>
+
+<p><em>NumFOCUS is a 501(c)3 public charity in the United States.</em></p>
+
+<h2 id="numfocus-sponsored-projects">NumFOCUS Sponsored Projects</h2>
+<p>From Netflix to NASA, researchers use NumFOCUS sponsored projects to solve the most challenging problems. Explore our open source tools by language, features, or industry. Click on the project logo for detailed information about each project.</p>
+
+<p><a href="https://www.numfocus.org/sponsored-projects">Find out more about NumFOCUS projects.</a></p>
+<ul class="features">
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/numpy" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">NumPy</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/numpy-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/matplotlib" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">Matplotlib</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/matplotlib-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/pandas" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">pandas</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/pandas-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/jupyter" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">Project Jupyter</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/jupyter-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/ipython" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">IPython</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/ipython-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/nteract" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">nteract</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/nteract-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/stan" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">Stan</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/stan-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/pymc3" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">PyMC3</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/pymc3-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/julia" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">Julia</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/julia-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/pytables" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">PyTables</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/pytables-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/shogun" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">Shogun</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/shogun-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/sympy" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">SymPy</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/sympy-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/fenics-project" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">FEniCS Project</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/fenics-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/yt" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">yt</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/yt-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/econ-ark" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">Econ-ARK</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2017/11/Econ-ARK-new-logo.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/astropy" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">Astropy</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/astropy-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/sunpy" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">SunPy</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/sunpy-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/quantecon" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">QuantEcon</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/quantecon-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/ropensci" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">rOpenSci</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/ropensci-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/open journals" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">Open Journals</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2016/07/openjournals-logo-300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/cantera" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">Cantera</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2018/02/cantera-logo-300x300.png" width="100px" />
+    
+</li>
+
+    <li class="project">
+    
+        <a href="https://www.numfocus.org/project/bokeh" target="_blank">
+    
+        <h3 style="margin-bottom: 0px">Bokeh</h3>
+
+    </a>
+    
+        <img src="https://numfocus.org/wp-content/uploads/2017/11/bokeh-logo-300.png
+" width="100px" />
+    
+</li>
+
+    
+</ul>
+
+
+            </div>
+        </section>
+    </article>
+
+    <!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		<li><a href="https://twitter.com/PyDataGlobal" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+		       
+		<li><a href="https://github.com/PyDataGlobal" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+		  
+	</ul>
+	<ul class="copyright">
+		<li>&copy; PyData Global</li>
+		<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</li>
+		<li>Stock Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a>.</li>
+		<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a>.</li>
+	</ul>
+</footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="https://global.pydata.org/assets/js/jquery.min.js"></script>
+<script src="https://global.pydata.org/assets/js/jquery.scrollex.min.js"></script>
+<script src="https://global.pydata.org/assets/js/jquery.scrolly.min.js"></script>
+<script src="https://global.pydata.org/assets/js/skel.min.js"></script>
+<script src="https://global.pydata.org/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="https://global.pydata.org/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="https://global.pydata.org/assets/js/main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-util.js"></script>
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>
