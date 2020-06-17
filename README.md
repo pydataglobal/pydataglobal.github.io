@@ -2,7 +2,7 @@
 
 This repository is used to build global.pydata.org. It is a fork of the PyData
 Amsterdam [website](https://amsterdam.pydata.org). We deeply thank the
-Amsterdam theme for making their website's code open source!
+Amsterdam team for making their website's code open source!
 
 ## Usage
 
