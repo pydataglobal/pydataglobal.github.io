@@ -3528,6 +3528,11 @@
                     padding-left: 0;
                 }
 
+                /* Diego: ensure text does not go too wide in banner on wide screens. */
+                .banner-text {
+                    max-width: 1000px;
+                }
+
 	body.is-loading #banner h2 {
 		-moz-transform: scale(0.95);
 		-webkit-transform: scale(0.95);
