@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>PyData Global 2020</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/schedule-style.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/responsive.css">
+	
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<script>
+  (function (w,d,s,o,f,js,fjs) {
+  w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+  js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+  js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+  }(window, document, 'script', 'plausible', 'https://plausible.io/js/p.js'));
+
+  plausible('page')
+</script>
+</head>
+
+
+<body>
+    <!-- Page Wrapper --> <style>
+	.meetup-link {
+		font-size: 11px !important;
+		margin-left: 15px
+	}
+	.meetup-list {
+		margin-bottom: 0px;
+	}
+</style>
+
+<div id="page-wrapper">
+
+	<!-- Header -->
+	<header id="header">
+                <script src="https://global.pydata.org/assets/js/jquery.min.js"></script>
+
+                <div id="header-title">
+                    <img id="header-logo" src="https://global.pydata.org/assets/images/pydata.png"><h1><a href="https://global.pydata.org//">PyData Global 2020</a></h1>
+                </div>
+		<nav id="nav">
+			<ul>
+				<li class="special">
+					<a href="#menu" class="menuToggle"><span>Menu</span></a>
+					<div id="menu">
+						<ul>
+							                                             
+							<li><a href="https://global.pydata.org/">Home</a></li>
+							                                                                                   
+							<li><a href="https://global.pydata.org/coc">Code of Conduct</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/community_sponsors">Community sponsors</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/format">Our Format</a></li>
+							        
+							<li><a href="https://global.pydata.org/pages/job_board">Job Board</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/newsletter">Newsletter</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/numfocus">About NumFocus</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/organizers">Organizing Committee</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/posters">Posters</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/program">Program</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/qa_panels">Q&amp;A Panels</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/quick_start">Quick Start</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/schedule">Live Event Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/short_talks">Short Talks</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sponsors">Sponsor PyData Global</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sprints">Sprints</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/talk_release_schedule">Talk Release Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/tickets">Tickets &amp; Scholarships</a></li>
+							   
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header><script>
+    function getCompareDate() {
+        var d = new Date(),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+        return [year, month, day].join('');
+    }
+    var future_elements = document.querySelectorAll('[future-date]');
+    Array.prototype.forEach.call(future_elements, function(el, i){
+        if(el.getAttribute('future-date').split('-').join('') < getCompareDate()) el.remove();
+    });
+
+    var past_elements = document.querySelectorAll('[past-date]');
+    Array.prototype.forEach.call(past_elements, function(el, i){
+        if(el.getAttribute('past-date').split('-').join('') > getCompareDate()) el.remove();
+    });
+</script>
+
+
+
+    <!-- Main -->
+    <article id="main">
+        <section class="wrapper style5">
+            <div class="inner talk-markdown-container">
+                <h1 style="margin-bottom: 0px">
+                    Scalable cross-filtering dashboards with Panel, HoloViews and hvPlot
+                </h1>
+                <h4>
+                    Talk
+                </h4>
+
+                
+                <h4>
+                    <a href="https://courses.numfocus.org/courses/course-v1:PyDataGlobal+PDG20-talks+2020/jump_to/block-v1:PyDataGlobal+PDG20-talks+2020+type@vertical+block@7c30d5d9b58344b0a68bc841de86eef3">Go to NumFOCUS academy page.</a>
+                </h4>
+                
+
+                <p>Introducing automatic linked selection and cross filtering tools for HoloViews, GeoViews, and hvPlot supporting the concise and convenient .plot() interface in Pandas or Xarray along with custom widgets from Panel, allowing data scientists to create even complex dashboards relating values across each of the dimensions without having to program with callbacks or other advanced mechanisms.</p>
+
+<h2 id="speakers">Speakers</h2>
+
+<h3 id="philipp-rudiger">Philipp Rudiger</h3>
+
+<p>Philipp Rudiger is a Software Engineer at Anaconda, Inc. developing open-source and client-specific solutions for data management, visualization and analysis. He is the author of the open source dashboarding and visualization libraries Panel, hvPlot and GeoViews and one of the core developers and maintainers of Bokeh, Datashader, and HoloViews. He has a strong background in the Python data science stack with experience in visualization, ML and numerical analysis. Before making the switch to software development he completed his PhD and Masters in Computational Neuroscience at the University of Edinburgh working on biologically inspired, deep and recurrent neural network models of the mammalian visual system.</p>
+
+<h3 id="james-a-bednar">James A. Bednar</h3>
+
+<p>Dr. James A. Bednar is the Senior Manager of Technical Services at Anaconda, Inc., and was a faculty member in the School of Informatics at the University of Edinburgh from 2003 to 2015. At Anaconda, Jim is the project lead of a variety of open-source packages under the <a href="http://holoviz.org">HoloViz.org</a> banner, including HoloViews, GeoViews, hvPlot, Datashader, Panel, and Colorcet.</p>
+
+
+            </div>
+        </section>
+    </article>
+
+    <!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		<li><a href="https://twitter.com/PyData" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+		       
+		<li><a href="https://github.com/PyDataGlobal" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+		  
+	</ul>
+	<ul class="copyright">
+		<li>© PyData Global 2020</li>
+		<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</li>
+		<li>Stock Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a>.</li>
+		<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a>.</li>
+	</ul>
+</footer>
+
+</div>
+
+<script src="https://global.pydata.org/assets/js/jquery.scrollex.min.js"></script>
+<script src="https://global.pydata.org/assets/js/jquery.scrolly.min.js"></script>
+<script src="https://global.pydata.org/assets/js/skel.min.js"></script>
+<script src="https://global.pydata.org/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="https://global.pydata.org/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="https://global.pydata.org/assets/js/main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-util.js"></script>
+
+
+</body>
+
+</html>

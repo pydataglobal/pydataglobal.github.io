@@ -1,0 +1,504 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>PyData Global 2020</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/schedule-style.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/responsive.css">
+	
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<script>
+  (function (w,d,s,o,f,js,fjs) {
+  w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+  js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+  js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+  }(window, document, 'script', 'plausible', 'https://plausible.io/js/p.js'));
+
+  plausible('page')
+</script>
+</head>
+
+
+<body>
+    <!-- Page Wrapper --> <style>
+	.meetup-link {
+		font-size: 11px !important;
+		margin-left: 15px
+	}
+	.meetup-list {
+		margin-bottom: 0px;
+	}
+</style>
+
+<div id="page-wrapper">
+
+	<!-- Header -->
+	<header id="header">
+                <script src="https://global.pydata.org/assets/js/jquery.min.js"></script>
+
+                <div id="header-title">
+                    <img id="header-logo" src="https://global.pydata.org/assets/images/pydata.png"><h1><a href="https://global.pydata.org//">PyData Global 2020</a></h1>
+                </div>
+		<nav id="nav">
+			<ul>
+				<li class="special">
+					<a href="#menu" class="menuToggle"><span>Menu</span></a>
+					<div id="menu">
+						<ul>
+							                                             
+							<li><a href="https://global.pydata.org/">Home</a></li>
+							                                                                                   
+							<li><a href="https://global.pydata.org/coc">Code of Conduct</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/community_sponsors">Community sponsors</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/format">Our Format</a></li>
+							        
+							<li><a href="https://global.pydata.org/pages/job_board">Job Board</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/newsletter">Newsletter</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/numfocus">About NumFocus</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/organizers">Organizing Committee</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/posters">Posters</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/program">Program</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/qa_panels">Q&amp;A Panels</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/quick_start">Quick Start</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/schedule">Live Event Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/short_talks">Short Talks</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sponsors">Sponsor PyData Global</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sprints">Sprints</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/talk_release_schedule">Talk Release Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/tickets">Tickets &amp; Scholarships</a></li>
+							   
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header><script>
+    function getCompareDate() {
+        var d = new Date(),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+        return [year, month, day].join('');
+    }
+    var future_elements = document.querySelectorAll('[future-date]');
+    Array.prototype.forEach.call(future_elements, function(el, i){
+        if(el.getAttribute('future-date').split('-').join('') < getCompareDate()) el.remove();
+    });
+
+    var past_elements = document.querySelectorAll('[past-date]');
+    Array.prototype.forEach.call(past_elements, function(el, i){
+        if(el.getAttribute('past-date').split('-').join('') > getCompareDate()) el.remove();
+    });
+</script>
+
+
+
+    <!-- Main -->
+    <article id="main">
+        <header>
+            <h2>Sprints</h2>
+            
+            
+            <p></p>
+        </header>
+        <section class="wrapper style5">
+            <div class="inner">
+
+                <h1 id="sprints">Sprints</h1>
+
+<p>PyData global is hosting multiple sprints for open source projects. Each sprint will have a project maintainer leading the sprint to help guide the contributors throughout the session.</p>
+
+<h2 id="what-are-sprints">What are sprints?</h2>
+
+<p>Development sprints offer an opportunity to enhance and contribute to open source projects in a focused session with the project maintainers. It is a fun exercise that helps open source projects to improve with the help of the open source community.</p>
+
+<h2 id="who-can-participate">Who can participate?</h2>
+
+<p>All experience levels are welcome to participate. Contribution guides and environment setup instructions are provided with each sprint.</p>
+
+<h2 id="sprints-schedule">Sprints Schedule</h2>
+<p>You can access the schedule of the sprints <a href="schedule">here</a>.</p>
+
+<h2 id="which-projects-are-sprinting">Which projects are sprinting?</h2>
+
+<p>In PyData Global 2020, 13 projects will have separate sprint sessions with some of its awesome project core developers and maintainers!</p>
+
+<div>
+
+
+
+
+<hr>
+
+<div class="talk-markdown-container">
+    
+        <div>
+            <h2>Bokeh</h2>
+            <p><img src="https://static.bokeh.org/logos/logotype.svg" alt="Bokeh img"></p>
+
+<p><a href="https://github.com/bokeh/bokeh">Bokeh</a> is an interactive visualization library for modern web browsers. It provides elegant, concise construction of versatile graphics, and affords high-performance interactivity over large or streaming datasets. Bokeh can help anyone who would like to quickly and easily make interactive plots, dashboards, and data applications.</p>
+
+<h3 id="important-links">Important links</h3>
+
+<ul>
+  <li><a href="https://github.com/bokeh/bokeh/wiki/Contributing-to-Bokeh">Bokeh Contribution Guide</a></li>
+  <li><a href="https://docs.bokeh.org/en/latest/docs/dev_guide/setup.html#devguide-setup">Setting up the development environment for Bokeh</a></li>
+  <li><a href="https://docs.bokeh.org/en/latest/docs/dev_guide.html">Bokeh Developer Guide</a></li>
+</ul>
+
+<h2 id="sprint-leaders">Sprint leaders</h2>
+
+<h3 id="pavithra-eswaramoorthy">Pavithra Eswaramoorthy</h3>
+
+<p>Pavithra is a member of Bokeh’s core team and works on some outreach initiatives.</p>
+
+<h3 id="bryan-van-de-ven">Bryan Van de Ven</h3>
+
+<p>Bryan is the co-creator and core-team member for <a href="https://bokeh.org">Bokeh</a> and also works on the open-source <a href="https://rapids.ai">RAPIDS</a> project at Nvidia.</p>
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>Flow forecast</h2>
+            <p><img src="https://global.pydata.org/assets/images/os-sprints/flow.png" alt="Flow img"></p>
+
+<p><a href="https://github.com/AIStream-Peelout/flow-forecast">Flow Forecast</a> repository is an open-source deep learning for time series library. It provide all the latest SOTA models and cutting edge concepts with easy to understand interpretability metrics, cloud provider integration, and serving capabilities.</p>
+
+<h3 id="important-links">Important links</h3>
+
+<ul>
+  <li><a href="https://flow-forecast.atlassian.net/wiki/spaces/FF/pages/22315025/Flow-Forecast+PyData+Global+Sprint+2020+11-10+to+11-18">flow forecast contribution guide</a></li>
+</ul>
+
+<h2 id="sprint-leaders">Sprint leaders</h2>
+
+<h3 id="isaac-godfried">Isaac Godfried</h3>
+
+<p>I’m a deep learning practitioner focused on applying A.I. to real world problems in health, climate, and agriculture. Most of my research focuses on time series forecasting, transfer learning, and multi-modal learning (though I occasionally dip into NLP). As most of my solutions need to preform in real world scenarios a lot of my time also goes to making high quality DL frameworks that integrate with cloud services, employ good coding practices, make it easy to ship and track model performance in production. I’m currently leading a team of researchers at <a href="https://github.com/CoronaWhy/task-ts/wiki">CoronaWhy to forecast COVID-19</a> spread and am developing an <a href="https://github.com/AIStream-Peelout/flow-forecast">easy to use deep learning for time series framework</a>.</p>
+
+<h3 id="kriti-mahajan">Kriti Mahajan</h3>
+
+<p>I am a Data Scientist focusing on the development of easy to use, scalable, and fair ML-based solutions for public policy problems. I am currently working at a start up called Monsoon CreditTech which uses ML to help financial institutions make better lending decisions. I am also a core member of the research team at CoronaWhy and am one of the core developers of flow-forecast (an open-source, general-purpose deep learning library for time series forecasting).  I previously worked with the Reserve Bank of India (the Indian Central Bank) where my work was on the cusp of both academic research and production of  ML models to help policymakers in India, focusing primarily on forecasting inflation using deep learning and developing an early warning system to identify companies before they default.</p>
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>Hypothesis</h2>
+            <p><img src="https://avatars3.githubusercontent.com/u/18481919?s=200&v=4" alt="Hypothesis img"></p>
+
+<p><a href="https://github.com/HypothesisWorks/hypothesis">Hypothesis</a> is a family of testing libraries which let you write tests parameterized by a source of examples. A Hypothesis implementation then generates simple and comprehensible examples that make your tests fail. This simplifies writing your tests and makes them more powerful at the same time, by letting software automate the boring bits and do them to a higher standard than a human would, freeing you to focus on the higher level test logic.</p>
+
+<h3 id="important-links">Important links</h3>
+
+<ul>
+  <li><a href="https://hypothesis.readthedocs.io/en/latest/">User docs</a></li>
+  <li><a href="https://github.com/Zac-HD/escape-from-automanual-testing">Tutorial</a></li>
+  <li><a href="https://github.com/HypothesisWorks/hypothesis/blob/master/CONTRIBUTING.rst">Contributor docs</a></li>
+</ul>
+
+<h2 id="sprint-leader">Sprint leader</h2>
+
+<h3 id="zac-hatfield-dodds">Zac Hatfield-Dodds</h3>
+
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>Kedro</h2>
+            <p><img src="https://raw.githubusercontent.com/quantumblacklabs/kedro/develop/static/img/kedro_banner.png" alt="kedro img"></p>
+
+<p><a href="https://github.com/quantumblacklabs/kedro">Kedro</a> is an open-source Python framework that applies software engineering best-practice to data and machine-learning pipelines. You can use it, for example, to optimise the process of taking a machine learning model into a production environment. You can use Kedro to organise a single user project running on a local environment, or collaborate within a team on an enterprise-level project.</p>
+
+<h3 id="important-links">Important links</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=KEdmJ2ADy_M">Intro to the library</a></li>
+  <li><a href="https://slides.com/cheukting_ho/1st_pr">Submitting your first PR</a></li>
+  <li><a href="https://github.com/quantumblacklabs/kedro/blob/master/CONTRIBUTING.md">Contribution Guide docs</a></li>
+  <li><a href="https://github.com/quantumblacklabs/kedro/blob/master/CODE_OF_CONDUCT.md">Code of Conduct:</a></li>
+</ul>
+
+<h2 id="sprint-leader">Sprint leader</h2>
+
+<h3 id="yetunde-dada">Yetunde Dada</h3>
+
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>Matplotlib</h2>
+            <p><img src="https://matplotlib.org/_static/logo2_compressed.svg" alt="matplotlib img"></p>
+
+<p><a href="https://github.com/matplotlib/matplotlib">Matplotlib</a> is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+.</p>
+
+<h2 id="sprint-leader">Sprint leader</h2>
+
+<h3 id="thomas-a-caswell">Thomas A Caswell</h3>
+
+<p>Thomas is a soft-matter physicist who now developer software for scientists. He develops data acquisition, management, and analysis tools at NSLS-II at BNL, as a core maintainer of h5py, and is the current Project Lead of Matplotlib.</p>
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>Modin</h2>
+            <p><img src="https://github.com/modin-project/modin/raw/3d6368edf311995ad231ec5342a51cd9e4e3dc20/docs/img/MODIN_ver2_hrz.png?raw=true" alt="Modin img"></p>
+
+<p><a href="https://github.com/modin-project/modin">Modin</a>: speed up your pandas workflows by changing a single line of code.</p>
+
+<h3 id="important-links">Important links</h3>
+<ul>
+  <li><a href="https://modin.readthedocs.io/en/latest/contributing.html">contribution guide</a></li>
+</ul>
+
+<h2 id="sprint-leader">Sprint leader</h2>
+
+<h3 id="devin-petersohn">Devin Petersohn</h3>
+
+<p>Devin Petersohn is a 5th year Computer Science PhD student at the UC Berkeley RISELab. In the early years of his PhD program, he focused on building tools for large scale genomics. In more recent years, Devin has focused on making data science more accessible to the domain experts. As a part of this work, Devin has created Modin, which he has been developing for the past 2 years.</p>
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>NetworkX</h2>
+            <p><img src="https://avatars1.githubusercontent.com/u/388785?s=200&v=4" alt="NX img"></p>
+
+<p><a href="https://github.com/networkx/networkx">NetworkX</a> is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.</p>
+
+<h3 id="important-links">Important links</h3>
+<ul>
+  <li><a href="https://networkx.org/documentation/latest/developer/contribute.html">NetworkX contribution guide</a></li>
+  <li><a href="https://networkx.org/documentation/latest/developer/index.html">NetworkX developer guide</a></li>
+</ul>
+
+<h2 id="sprint-leader">Sprint leader</h2>
+
+<h3 id="mridul-seth">Mridul Seth</h3>
+
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>Pandas</h2>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" alt="Pandas img"></p>
+
+<p><a href="https://github.com/pandas-dev/pandas">pandas</a> is a Python package that provides fast, flexible, and expressive data structures designed to make working with structured (tabular, multidimensional, potentially heterogeneous) and time series data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language. It is already well on its way toward this goal.</p>
+
+<h3 id="important-links">Important links</h3>
+
+<ul>
+  <li><a href="https://pandas.pydata.org/pandas-docs/dev/development/contributing.html">pandas Contribution Guide</a></li>
+</ul>
+
+<h2 id="sprint-leader">Sprint leader</h2>
+
+<h3 id="marco-gorelli">Marco Gorelli</h3>
+
+<p>Marco is a Data Scientist at the Samsung R&amp;D Institute UK. Outside of work, he is a maintainer of pandas (data wrangling platform for Python widely adopted in the scientific computing community) and co-author of nbQA (tool and pre-commit hook to run any standard Python code quality tool on a Jupyter Notebook). He holds an MSc in Mathematics and Foundations of Computer Science from the University of Oxford.</p>
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>PyTorch-Ignite</h2>
+            <p><img src="https://pbs.twimg.com/media/EjALcZxXcAAvLtX.png" alt="PyT-Ignite img"></p>
+
+<p><a href="https://github.com/pytorch/ignite">PyTorch-Ignite</a> is a high-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently.</p>
+
+<h3 id="important-links">Important links</h3>
+<ul>
+  <li><a href="https://github.com/pytorch/ignite/blob/master/CONTRIBUTING.md#developing-ignite">Developing Ignite</a></li>
+  <li><a href="https://github.com/pytorch/ignite/blob/master/CONTRIBUTING.md">Contribution guide</a></li>
+</ul>
+
+<h2 id="sprint-leader">Sprint leader</h2>
+
+<h3 id="victor-fomin">Victor FOMIN</h3>
+
+<p>Active Open-Source contributor to PyTorch ecosystem, core developer and maintainer of <a href="https://github.com/pytorch/ignite">PyTorch-Ignite library</a>.
+Member of the Team of <a href="http://tlse-data-science.fr/">Toulouse Data Science meetup</a>.
+Currently, Software Engineer @ <a href="https://www.quansight.com/">Quansight</a>. Previously, worked as Deep Learning applications engineer in computer vision.</p>
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>VolEsti : a sampling and volume approximation library</h2>
+            <p><img src="https://github.com/GeomScale/volume_approximation/raw/develop/doc/logo/volesti_logo.jpg" alt="volesti img"></p>
+
+<p><a href="https://github.com/GeomScale/volume_approximation">VolEsti</a> is a C++ library for volume approximation and sampling of convex bodies (e.g. polytopes) with an R and limited python interface. VolEsti is part of the GeomScale project.</p>
+
+<h3 id="important-links">Important links</h3>
+<ul>
+  <li><a href="https://github.com/GeomScale/volume_approximation/blob/develop/CONTRIBUTING.md">contribution guide</a></li>
+  <li><a href="https://github.com/GeomScale/volume_approximation/blob/develop/doc/r_interface.md">Using the R Interface</a></li>
+  <li><a href="https://github.com/GeomScale/volume_approximation/blob/develop/doc/cpp_interface.md">Using the C++
+Interface</a></li>
+  <li><a href="https://github.com/GeomScale/volume_approximation/blob/develop/volestipy/README.md">Using the Python
+Interface</a></li>
+  <li><a href="https://vissarion.github.io/tutorials/volesti_tutorial_pydata.html">Tutorial</a></li>
+</ul>
+
+<h2 id="sprint-leaders">Sprint leaders</h2>
+
+<h3 id="vissarion-fisikopoulos">Vissarion Fisikopoulos</h3>
+
+<p>Vissarion has a decade of experience in research and development of algorithms in both academia and industry. His interests lie at the intersection of geometric computing, optimization, statistical computing, mathematical software and algorithm engineering. He holds a PhD in computer science, more than 20 scientific publications in top rank journals and conferences, more than 40 talks in international conferences, seminars with invitation and technological events. Co-author, maintainer and contributor in several open-source projects (https://vissarion.github.io).</p>
+
+<h3 id="apostolos-chalkis">Apostolos Chalkis</h3>
+
+<p>Apostolos is a PhD student in Computer Science at the Department of Telecommunications and Informatics in National Kapodistrian University of Athens. His scientific and research interests are:</p>
+
+<ul>
+  <li>Markov chains for sampling from high dimensional multivariate distributions.</li>
+  <li>Volume estimation of convex and non-convex bodies in high dimensions.</li>
+  <li>Crises detection and portfolio performance evaluation in big stock markets.</li>
+  <li>Randomized methods for convex optimization.</li>
+  <li>Optimized implementation of state-of-the-art geometric algorithms.</li>
+</ul>
+
+<h3 id="elias-tsigaridas">Elias Tsigaridas</h3>
+
+<p>Elias is a permanent research scientist at INRIA Paris. He is an expert in computational nonlinear algebra and geometry with extensive experience in mathematical software. He has published  36 peer reviewed journal papers, 44 peer reviewed conference papers, and he has given many invited lectures.</p>
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>napari</h2>
+            <p><img src="https://avatars3.githubusercontent.com/u/39813916?s=200&v=4" alt="napari img"></p>
+
+<p><a href="https://github.com/napari/napari">napari</a> is a fast, interactive, multi-dimensional image viewer for Python. It’s designed for browsing, annotating, and analyzing large multi-dimensional images. It’s built on top of Qt (for the GUI), vispy (for performant GPU-based rendering), and the scientific Python stack (numpy, scipy).</p>
+
+<h3 id="important-links">Important links</h3>
+
+<ul>
+  <li><a href="https://napari.org/docs/dev/developers/CONTRIBUTING.html">napari contribution guide</a></li>
+  <li><a href="https://napari.org/docs/dev/developers/CODE_OF_CONDUCT.html">napari code of conduct</a></li>
+</ul>
+
+<h2 id="sprint-leader">Sprint leader</h2>
+
+<h3 id="nicholas-sofroniew">Nicholas Sofroniew</h3>
+
+<p>Nicholas has a background in neuroscience, microscopy, and data analysis, and a passion for open source software in science. He’s on the steering council for napari, a fast, interactive, multi-dimensional image viewer for Python, and leads the imaging tech team at the Chan Zuckerberg Initiative, a philanthropy with a focus on accelerating science.</p>
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>sktime</h2>
+            <p><img src="https://miro.medium.com/max/654/0*_n2EpyRNWP-EchQ9.png" alt="sktime img"></p>
+
+<p><a href="https://github.com/alan-turing-institute/sktime">sktime</a> is a Python machine learning toolbox for time series with a unified interface for multiple learning tasks. It currently supports Forecasting, Time series classification, and Time series regression.</p>
+
+<h3 id="important-links">Important links</h3>
+<ul>
+  <li><a href="https://github.com/alan-turing-institute/sktime/wiki/PyData-Global-2020-sprint">Getting started - PyData Global sktime sprint</a></li>
+  <li><a href="https://github.com/alan-turing-institute/sktime/blob/master/CONTRIBUTING.md">sktime contribution guide</a></li>
+</ul>
+
+<h2 id="sprint-leader">Sprint leader</h2>
+
+<h3 id="markus-löning">Markus Löning</h3>
+
+<p>Markus is a PhD student at UCL and core developer of sktime, a scikit-learn compatible Python toolbox for machine learning with time series. He was a visiting student at The Alan Turing Institute, where he began development of sktime in collaboration with researchers from UCL and the University of East Anglia. He holds a Masterâ€™s degree in Economics &amp; Philosophy.</p>
+
+            <hr>
+        </div>
+    
+        <div>
+            <h2>terminusdb-client</h2>
+            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/TerminusDB.png/220px-TerminusDB.png" alt="tdb img"></p>
+
+<p><a href="https://github.com/terminusdb/terminusdb-client-python">TerminusDB</a> is an open-source model-driven graph database that stores data like Git. It is designed for knowledge graph representation and is a native revision control database.</p>
+
+<h3 id="important-links">Important links</h3>
+<ul>
+  <li><a href="https://github.com/terminusdb/terminusdb-client-python/blob/master/Contributing.md">contribution guide</a></li>
+</ul>
+
+<h2 id="sprint-leader">Sprint leader</h2>
+
+<h3 id="cheuk-ting-ho">Cheuk Ting Ho</h3>
+
+<p>Cheuk has been a Data Scientist in one of the biggest worldwide wholesalers in the travel business; an AWS partnered consultancy which delivers machine learning model; a startup aiming to revolutionise revenue management with data science and; a global bank using machine learning to investigating financial crime. Now Cheuk is working in a team of developers building a revolutionary graph database. She constantly contributes to the community by giving AI and deep learning workshops and organize sprints for open source projects, at the same time contribute to open source projects including Pandas, Keras, Scikit-learn, Dateutil and maintaining her open-source library - PicknMix</p>
+
+            <hr>
+        </div>
+    
+</div>
+
+</div>
+
+
+
+            </div>
+        </section>
+    </article>
+
+    <!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		<li><a href="https://twitter.com/PyData" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+		       
+		<li><a href="https://github.com/PyDataGlobal" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+		  
+	</ul>
+	<ul class="copyright">
+		<li>© PyData Global 2020</li>
+		<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</li>
+		<li>Stock Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a>.</li>
+		<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a>.</li>
+	</ul>
+</footer>
+
+</div>
+
+<script src="https://global.pydata.org/assets/js/jquery.scrollex.min.js"></script>
+<script src="https://global.pydata.org/assets/js/jquery.scrolly.min.js"></script>
+<script src="https://global.pydata.org/assets/js/skel.min.js"></script>
+<script src="https://global.pydata.org/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="https://global.pydata.org/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="https://global.pydata.org/assets/js/main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-util.js"></script>
+
+
+</body>
+
+</html>

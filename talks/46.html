@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>PyData Global 2020</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/schedule-style.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/responsive.css">
+	
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<script>
+  (function (w,d,s,o,f,js,fjs) {
+  w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+  js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+  js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+  }(window, document, 'script', 'plausible', 'https://plausible.io/js/p.js'));
+
+  plausible('page')
+</script>
+</head>
+
+
+<body>
+    <!-- Page Wrapper --> <style>
+	.meetup-link {
+		font-size: 11px !important;
+		margin-left: 15px
+	}
+	.meetup-list {
+		margin-bottom: 0px;
+	}
+</style>
+
+<div id="page-wrapper">
+
+	<!-- Header -->
+	<header id="header">
+                <script src="https://global.pydata.org/assets/js/jquery.min.js"></script>
+
+                <div id="header-title">
+                    <img id="header-logo" src="https://global.pydata.org/assets/images/pydata.png"><h1><a href="https://global.pydata.org//">PyData Global 2020</a></h1>
+                </div>
+		<nav id="nav">
+			<ul>
+				<li class="special">
+					<a href="#menu" class="menuToggle"><span>Menu</span></a>
+					<div id="menu">
+						<ul>
+							                                             
+							<li><a href="https://global.pydata.org/">Home</a></li>
+							                                                                                   
+							<li><a href="https://global.pydata.org/coc">Code of Conduct</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/community_sponsors">Community sponsors</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/format">Our Format</a></li>
+							        
+							<li><a href="https://global.pydata.org/pages/job_board">Job Board</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/newsletter">Newsletter</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/numfocus">About NumFocus</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/organizers">Organizing Committee</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/posters">Posters</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/program">Program</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/qa_panels">Q&amp;A Panels</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/quick_start">Quick Start</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/schedule">Live Event Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/short_talks">Short Talks</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sponsors">Sponsor PyData Global</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sprints">Sprints</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/talk_release_schedule">Talk Release Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/tickets">Tickets &amp; Scholarships</a></li>
+							   
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header><script>
+    function getCompareDate() {
+        var d = new Date(),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+        return [year, month, day].join('');
+    }
+    var future_elements = document.querySelectorAll('[future-date]');
+    Array.prototype.forEach.call(future_elements, function(el, i){
+        if(el.getAttribute('future-date').split('-').join('') < getCompareDate()) el.remove();
+    });
+
+    var past_elements = document.querySelectorAll('[past-date]');
+    Array.prototype.forEach.call(past_elements, function(el, i){
+        if(el.getAttribute('past-date').split('-').join('') > getCompareDate()) el.remove();
+    });
+</script>
+
+
+
+    <!-- Main -->
+    <article id="main">
+        <section class="wrapper style5">
+            <div class="inner talk-markdown-container">
+                <h1 style="margin-bottom: 0px">
+                    Flow forecast
+                </h1>
+                <h4>
+                    Sprint
+                </h4>
+
+                
+
+                <p><img src="https://global.pydata.org/assets/images/os-sprints/flow.png" alt="Flow img"></p>
+
+<p><a href="https://github.com/AIStream-Peelout/flow-forecast">Flow Forecast</a> repository is an open-source deep learning for time series library. It provide all the latest SOTA models and cutting edge concepts with easy to understand interpretability metrics, cloud provider integration, and serving capabilities.</p>
+
+<h3 id="important-links">Important links</h3>
+
+<ul>
+  <li><a href="https://flow-forecast.atlassian.net/wiki/spaces/FF/pages/22315025/Flow-Forecast+PyData+Global+Sprint+2020+11-10+to+11-18">flow forecast contribution guide</a></li>
+</ul>
+
+<h2 id="sprint-leaders">Sprint leaders</h2>
+
+<h3 id="isaac-godfried">Isaac Godfried</h3>
+
+<p>I’m a deep learning practitioner focused on applying A.I. to real world problems in health, climate, and agriculture. Most of my research focuses on time series forecasting, transfer learning, and multi-modal learning (though I occasionally dip into NLP). As most of my solutions need to preform in real world scenarios a lot of my time also goes to making high quality DL frameworks that integrate with cloud services, employ good coding practices, make it easy to ship and track model performance in production. I’m currently leading a team of researchers at <a href="https://github.com/CoronaWhy/task-ts/wiki">CoronaWhy to forecast COVID-19</a> spread and am developing an <a href="https://github.com/AIStream-Peelout/flow-forecast">easy to use deep learning for time series framework</a>.</p>
+
+<h3 id="kriti-mahajan">Kriti Mahajan</h3>
+
+<p>I am a Data Scientist focusing on the development of easy to use, scalable, and fair ML-based solutions for public policy problems. I am currently working at a start up called Monsoon CreditTech which uses ML to help financial institutions make better lending decisions. I am also a core member of the research team at CoronaWhy and am one of the core developers of flow-forecast (an open-source, general-purpose deep learning library for time series forecasting).  I previously worked with the Reserve Bank of India (the Indian Central Bank) where my work was on the cusp of both academic research and production of  ML models to help policymakers in India, focusing primarily on forecasting inflation using deep learning and developing an early warning system to identify companies before they default.</p>
+
+
+            </div>
+        </section>
+    </article>
+
+    <!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		<li><a href="https://twitter.com/PyData" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+		       
+		<li><a href="https://github.com/PyDataGlobal" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+		  
+	</ul>
+	<ul class="copyright">
+		<li>© PyData Global 2020</li>
+		<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</li>
+		<li>Stock Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a>.</li>
+		<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a>.</li>
+	</ul>
+</footer>
+
+</div>
+
+<script src="https://global.pydata.org/assets/js/jquery.scrollex.min.js"></script>
+<script src="https://global.pydata.org/assets/js/jquery.scrolly.min.js"></script>
+<script src="https://global.pydata.org/assets/js/skel.min.js"></script>
+<script src="https://global.pydata.org/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="https://global.pydata.org/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="https://global.pydata.org/assets/js/main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-util.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>PyData Global 2020</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/schedule-style.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/responsive.css">
+	
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<script>
+  (function (w,d,s,o,f,js,fjs) {
+  w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+  js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+  js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+  }(window, document, 'script', 'plausible', 'https://plausible.io/js/p.js'));
+
+  plausible('page')
+</script>
+</head>
+
+
+<body>
+    <!-- Page Wrapper --> <style>
+	.meetup-link {
+		font-size: 11px !important;
+		margin-left: 15px
+	}
+	.meetup-list {
+		margin-bottom: 0px;
+	}
+</style>
+
+<div id="page-wrapper">
+
+	<!-- Header -->
+	<header id="header">
+                <script src="https://global.pydata.org/assets/js/jquery.min.js"></script>
+
+                <div id="header-title">
+                    <img id="header-logo" src="https://global.pydata.org/assets/images/pydata.png"><h1><a href="https://global.pydata.org//">PyData Global 2020</a></h1>
+                </div>
+		<nav id="nav">
+			<ul>
+				<li class="special">
+					<a href="#menu" class="menuToggle"><span>Menu</span></a>
+					<div id="menu">
+						<ul>
+							                                             
+							<li><a href="https://global.pydata.org/">Home</a></li>
+							                                                                                   
+							<li><a href="https://global.pydata.org/coc">Code of Conduct</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/community_sponsors">Community sponsors</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/format">Our Format</a></li>
+							        
+							<li><a href="https://global.pydata.org/pages/job_board">Job Board</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/newsletter">Newsletter</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/numfocus">About NumFocus</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/organizers">Organizing Committee</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/posters">Posters</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/program">Program</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/qa_panels">Q&amp;A Panels</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/quick_start">Quick Start</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/schedule">Live Event Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/short_talks">Short Talks</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sponsors">Sponsor PyData Global</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sprints">Sprints</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/talk_release_schedule">Talk Release Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/tickets">Tickets &amp; Scholarships</a></li>
+							   
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header><script>
+    function getCompareDate() {
+        var d = new Date(),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+        return [year, month, day].join('');
+    }
+    var future_elements = document.querySelectorAll('[future-date]');
+    Array.prototype.forEach.call(future_elements, function(el, i){
+        if(el.getAttribute('future-date').split('-').join('') < getCompareDate()) el.remove();
+    });
+
+    var past_elements = document.querySelectorAll('[past-date]');
+    Array.prototype.forEach.call(past_elements, function(el, i){
+        if(el.getAttribute('past-date').split('-').join('') > getCompareDate()) el.remove();
+    });
+</script>
+
+
+
+    <!-- Main -->
+    <article id="main">
+        <header>
+            <h2>Talk Release Schedule</h2>
+            
+            
+            <p></p>
+        </header>
+        <section class="wrapper style5">
+            <div class="inner">
+
+                <style>
+.release-anchor {
+    position: relative;
+    top: -50px;
+}
+</style>
+
+<p>Talk recordings will be released at the start of each day following the schedule below.</p>
+<div class="release-anchor" id="nov-11"></div>
+<h1 id="november-11th">November 11th</h1>
+<ul>
+  <li>
+<strong><a href="../talks/5">Quickly deploying explainable AI dashboards</a></strong>, by Oege Dijk</li>
+  <li>
+<strong><a href="../talks/58">Is a neural network better than Ash at detecting Team Rocket? If so, how?</a></strong>, by Juan De Dios Santos</li>
+  <li>
+<strong><a href="../talks/51">TimeSeries Forecasting with ML Algorithms and there comparisons</a></strong>, by Sonam Pankaj</li>
+  <li>
+<strong><a href="../talks/361">Visions: An Open-Source Library for Semantic Data</a></strong>, by Ian Eaves and Simon Brugman</li>
+  <li>
+<strong><a href="../talks/286">Autonomous Vehicles See More With Thermal Imaging: Multi-modal thin cross section Object Detection</a></strong>, by Laisha Wadhwa</li>
+  <li>
+<strong><a href="../talks/16">Accelerating Differential Equations in R and Python using Julia’s SciML Ecosystem</a></strong>, by Chris Rackauckas</li>
+  <li>
+<strong><a href="../talks/26">An introduction to DataFrames.jl for pandas users</a></strong>, by Bogumił Kamiński</li>
+  <li>
+<strong><a href="../talks/114">Why I didn’t use deep learning for my image recognition problem</a></strong>, by Liucija Latanauskaite</li>
+  <li>
+<strong><a href="../talks/358">Feature drift monitoring as a service for machine learning models at scale</a></strong>, by Keira Zhou and Noriaki Tatsumi</li>
+  <li>
+<strong><a href="../talks/321">DevOps for science: using continuous integration for rigorous and reproducible analysis</a></strong>, by Elle O’Brien</li>
+  <li>
+<strong><a href="../talks/163">Skinny Pandas Riding on a Rocket</a></strong>, by Ian Ozsvald (PyDataLondon)</li>
+  <li>
+<strong><a href="../talks/212">Using Algorithm X to re-analyse the last UK general election</a></strong>, by Alex Glaser</li>
+  <li>
+<strong><a href="../talks/336">Taking Care of Parameters So You Don’t Have to with ParamTools</a></strong>, by Hank Doupe</li>
+  <li>
+<strong><a href="../talks/271">FlyBrainLab: An Interactive Open Computing Platform for Exploring the Drosophila Brain</a></strong>, by Mehmet Kerem Turkcan, Aurel A. Lazar and Yiyin Zhou</li>
+  <li>
+<strong><a href="../talks/356">Ensemble-X: Your personal strataGEM to build Ensembled Deep Learning Models for Medical Imaging</a></strong>, by Dipam Paul and Alankrita Tewari</li>
+  <li>
+<strong><a href="../talks/235">Enquiry-Based Learning for Science and Engineering utilizing Bokeh</a></strong>, by Raghuram Thiagarajan, Anna Moragne, Brian Lucas and Srinivas Rangarajan</li>
+  <li>
+<strong><a href="../talks/91">Rapidly emulating professional visualizations from New York Times in Python using Altair</a></strong>, by Shantam Raj</li>
+  <li>
+<strong><a href="../talks/339">Using Dominance Analysis for accurate and intuitive feature importance</a></strong>, by Shashank Shekhar</li>
+  <li>
+<strong><a href="../talks/193">Accelerating Text Processing With RAPIDS</a></strong>, by Vibhu Jawa</li>
+</ul>
+
+<hr>
+
+<div class="release-anchor" id="nov-12"></div>
+<h1 id="november-12th">November 12th</h1>
+<ul>
+  <li>
+<strong><a href="../talks/151">ipywidgets for Education! Using Jupyter tools to make Math Visualization applets for the classroom</a></strong>, by Chiin-Rui Tan</li>
+  <li>
+<strong><a href="../talks/349">COVID-19 Visualizations, the Good, the Bad and the Malicious</a></strong>, by Rongpeng Li</li>
+  <li>
+<strong><a href="../talks/3">Opening the Black Box</a></strong>, by Ben Fowler and Chelsey Kate Meise</li>
+  <li>
+<strong><a href="../talks/100">Uncertainty Quantification for Online Learning via Hierarchical Incremental Gradient Descent</a></strong>, by Vihan Singh</li>
+  <li>
+<strong><a href="../talks/238">What cyber security can teach us about COVID-19 testing</a></strong>, by Hagit Grushka - Cohen</li>
+  <li>
+<strong><a href="../talks/394">ML-Based Time Series Regression: 10 concepts we learned from Demand Forecasting</a></strong>, by Felix Wick</li>
+  <li>
+<strong><a href="../talks/38">Basic Pitfalls in Waveform Analysis</a></strong>, by Yukio Okuda</li>
+  <li>
+<strong><a href="../talks/28">Entity matching at scale</a></strong>, by Lorraine D’almeida</li>
+  <li>
+<strong><a href="../talks/107">Building a Successful Data Science Team</a></strong>, by Justin J. Nguyen</li>
+  <li>
+<strong><a href="../talks/161">The Big Benefits of Small Data</a></strong>, by Christopher Lozinski</li>
+  <li>
+<strong><a href="../talks/182">Monitoring machine learning models in production</a></strong>, by Arnaud Van Looveren</li>
+  <li>
+<strong><a href="../talks/88">Better Code for Data Science</a></strong>, by Alexander CS Hendorf</li>
+  <li>
+<strong><a href="../talks/219">Thrifty Machine Learning</a></strong>, by Rebecca Bilbro</li>
+  <li>
+<strong><a href="../talks/395">Leveraging python and open-source for data-science on the buy-side.</a></strong>, by James Munro</li>
+  <li>
+<strong><a href="../talks/144">Sampling from (truncated) high-dimensional logconcave densities with VolEsti (GeomScale Project)</a></strong>, by Marios Papachristou</li>
+  <li>
+<strong><a href="../talks/341">UBI Center: A think tank built on GitHub, Python, and Jupyter</a></strong>, by Max Ghenis</li>
+  <li>
+<strong><a href="../talks/73">Python, Let’s Go Home. Quickly.</a></strong>, by Miroslav Šedivý</li>
+  <li>
+<strong><a href="../talks/243">Matrix Profile API: A novel cross language time-series mining library</a></strong>, by Tyler Marrs</li>
+</ul>
+
+<hr>
+
+<div class="release-anchor" id="nov-13"></div>
+<h1 id="november-13th">November 13th</h1>
+<ul>
+  <li>
+<strong><a href="../talks/283">Climate Change: analyzing remote sensing data with Python</a></strong>, by Luis Lopez</li>
+  <li>
+<strong><a href="../talks/146">Using EOLearn to build a machine learning pipeline to detect plastics in the ocean.</a></strong>, by Stuart Lynn</li>
+  <li>
+<strong><a href="../talks/139">Cardinal: A metrics based Active Learning framework</a></strong>, by Alexandre Abraham</li>
+  <li>
+<strong><a href="../talks/4">Streamlit: The Fastest Way to build Data Apps</a></strong>, by Steven Kolawole</li>
+  <li>
+<strong><a href="../talks/313">Data processing pipelines for Small Big Data</a></strong>, by Esteban J. G. Gabancho and Anthony Franklin, PhD</li>
+  <li>
+<strong><a href="../talks/92">Transformation from Research Oriented Code into Machine Learning APIs with Python</a></strong>, by Tetsuya Jesse Hirata</li>
+  <li>
+<strong><a href="../talks/6">How to review a model</a></strong>, by Andy R. Terrel</li>
+  <li>
+<strong><a href="../talks/253">Speed Up Your Data Processing: Parallel and Asynchronous Programming in Data Science</a></strong>, by Chin Hwee Ong</li>
+  <li>
+<strong><a href="../talks/397">Snap ML: Accelerated, Accurate, Efficient Machine Learning</a></strong>, by Haris Pozidis and Thomas Parnell</li>
+  <li>
+<strong><a href="../talks/377">Parallel processing in Python: The current landscape</a></strong>, by Aaron Richter</li>
+  <li>
+<strong><a href="../talks/388">Visual data: abundant, relevant, labelled, cheap. Pick two?</a></strong>, by Irina Vidal Migallon</li>
+  <li>
+<strong><a href="../talks/135">pandas.(to/from)_sql is simple but not fast</a></strong>, by Uwe Korn</li>
+  <li>
+<strong><a href="../talks/354">pyodide: scientific Python compiled to WebAssembly</a></strong>, by Roman Yurchak</li>
+  <li>
+<strong><a href="../talks/370">Dirty Data science: machine-learning on non-curated data</a></strong>, by Gaël Varoquaux</li>
+  <li>
+<strong><a href="../talks/310">What’s new in pandas?</a></strong>, by Joris Van den Bossche and Tom Augspurger</li>
+  <li>
+<strong><a href="../talks/400">Growing Machine Learning Platforms in the Enterprise</a></strong>, by Hussain Sultan and Ben Lindquist</li>
+  <li>
+<strong><a href="../talks/324">NLP in Spanish, alternatives and challenges</a></strong>, by Isabel Yepes</li>
+  <li>
+<strong><a href="../talks/372">Asynchronous fsspec file operations</a></strong>, by Martin Durant</li>
+  <li>
+<strong><a href="../talks/340">A Unified API Wrapper to Simplify Web Data Collection</a></strong>, by Pei Wang and Weiyuan Wu</li>
+  <li>
+<strong><a href="../talks/76">Learning from your (model’s) mistakes</a></strong>, by Simona Maggio</li>
+</ul>
+
+<hr>
+
+<div class="release-anchor" id="nov-14"></div>
+<h1 id="november-14th">November 14th</h1>
+<ul>
+  <li>
+<strong><a href="../talks/244">Taking a Close Look in the Mirror: Data Literacy for Data Experts</a></strong>, by Laura J Ludwig</li>
+  <li>
+<strong><a href="../talks/239">Complex Network Analysis with NetworkX</a></strong>, by K. Jarrod Millman</li>
+  <li>
+<strong><a href="../talks/206">Separation of ~concerns~ scales in software</a></strong>, by Thomas A Caswell</li>
+  <li>
+<strong><a href="../talks/344">Computational Social Science with Python, and how Open Source transforms Academia and Research</a></strong>, by Bhargav Srinivasa Desikan</li>
+  <li>
+<strong><a href="../talks/297">Scalable cross-filtering dashboards with Panel, HoloViews and hvPlot</a></strong>, by Philipp Rudiger and James A. Bednar</li>
+  <li>
+<strong><a href="../talks/396">Building Large-Scale Multilingual Fuzzy Matching Framework</a></strong>, by Abdulrahman Althobaiti</li>
+  <li>
+<strong><a href="../talks/240">Safe, Fair and Ethical AI - A Practical Framework</a></strong>, by Tariq Rashid</li>
+  <li>
+<strong><a href="../talks/280">Meditations on First Deployment: A Practical Guide to Responsible Data Science &amp; Engineering</a></strong>, by Alejandro Saucedo</li>
+  <li>
+<strong><a href="../talks/275">Responsible ML in Production</a></strong>, by Catherine Nelson and Hannes Hapke</li>
+  <li>
+<strong><a href="../talks/166">Geometric and statistical methods in systems biology: the case of metabolic networks</a></strong>, by Haris Zafeiropoulos and Apostolos Chalkis</li>
+  <li>
+<strong><a href="../talks/197">When features go missing, Bayes’ comes to the rescue</a></strong>, by Narendra Mukherjee</li>
+  <li>
+<strong><a href="../talks/266">Uncertainty Quantification in Neural Networks with Keras</a></strong>, by Matias Valdenegro-Toro</li>
+  <li>
+<strong><a href="../talks/149">Bayesian Decision Science: A framework for making data informed decisions under uncertainty</a></strong>, by Ravin Kumar</li>
+  <li>
+<strong><a href="../talks/274">Modelling the extreme using quantile regression</a></strong>, by Massimiliano Ungheretti</li>
+  <li>
+<strong><a href="../talks/7">Modern Time Series Analysis with STUMPY</a></strong>, by Sean Law</li>
+  <li>
+<strong><a href="../talks/1">A crash-update to lifelines</a></strong>, by Cameron Davidson-Pilon</li>
+  <li>
+<strong><a href="../talks/180">Ten Ways to Fizz Buzz</a></strong>, by Joel Grus</li>
+  <li>
+<strong><a href="../talks/33">Data Visualization &amp; Storytelling</a></strong>, by Jose Berengueres</li>
+  <li>
+<strong><a href="../talks/213">nbreproduce: Jupyter notebooks in reproducible environments</a></strong>, by Mridul Seth</li>
+  <li>
+<strong><a href="../talks/142">Gaussian Process Fitting: let the data guide you!</a></strong>, by Tomás Müller</li>
+</ul>
+
+<hr>
+
+<div class="release-anchor" id="nov-15"></div>
+<h1 id="november-15th">November 15th</h1>
+<ul>
+  <li>
+<strong><a href="../talks/297">Scalable cross-filtering dashboards with Panel, HoloViews and hvPlot</a></strong>, by Philipp Rudiger and James A. Bednar</li>
+  <li>
+<strong><a href="../talks/298">Supercharge Scientific Computing in Python with Numba</a></strong>, by Ankit Mahato</li>
+  <li>
+<strong><a href="../talks/303">Inventing Curriculum using Python and spaCy</a></strong>, by Gajendra Deshpande</li>
+  <li>
+<strong><a href="../talks/119">How to guarantee your machine learning model will fail on first contact with the real world.</a></strong>, by Jesper Dramsch</li>
+  <li>
+<strong><a href="../talks/74">Rethinking Software Testing for Data Science</a></strong>, by Eduardo Blancas</li>
+  <li>
+<strong><a href="../talks/123">Building one (multi-task) model to rule them all!</a></strong>, by Nicole Carlson and Michael Sugimura</li>
+  <li>
+<strong><a href="../talks/331">Hosting Dask: Challenges and Opportunities</a></strong>, by Matthew Rocklin</li>
+  <li>
+<strong><a href="../talks/10">What Lies in Word Embeddings</a></strong>, by Vincent D. Warmerdam</li>
+  <li>
+<strong><a href="../talks/233">Building fairer models for finance</a></strong>, by Andrew Weeks</li>
+  <li>
+<strong><a href="../talks/208">Games, Algorithms, and Social Good</a></strong>, by Manojit Nandi</li>
+  <li>
+<strong><a href="../talks/380">Open Source Fairness</a></strong>, by Aileen Nielsen</li>
+  <li>
+<strong><a href="../talks/23">Indian Sign Language Recognition(ISLAR)</a></strong>, by Akshay Bahadur</li>
+  <li>
+<strong><a href="../talks/241">Pythons in Python: Wildlife Trade Data Analysis Using Python</a></strong>, by Anne Devan-Song and Lee Tirrell</li>
+  <li>
+<strong><a href="../talks/378">Crowdsource a Distributed Organizations Data Model</a></strong>, by Christopher Lozinski</li>
+  <li>
+<strong><a href="../talks/383">Lessons from a Nuclear Core Loading Quantum Algorithm Study</a></strong>, by Colleen M. Farrelly and Joseph Fustero</li>
+  <li>
+<strong><a href="../talks/72">Creating a data-driven culture: a social perspective</a></strong>, by Jordi Contestí</li>
+</ul>
+
+
+            </div>
+        </section>
+    </article>
+
+    <!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		<li><a href="https://twitter.com/PyData" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+		       
+		<li><a href="https://github.com/PyDataGlobal" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+		  
+	</ul>
+	<ul class="copyright">
+		<li>© PyData Global 2020</li>
+		<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</li>
+		<li>Stock Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a>.</li>
+		<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a>.</li>
+	</ul>
+</footer>
+
+</div>
+
+<script src="https://global.pydata.org/assets/js/jquery.scrollex.min.js"></script>
+<script src="https://global.pydata.org/assets/js/jquery.scrolly.min.js"></script>
+<script src="https://global.pydata.org/assets/js/skel.min.js"></script>
+<script src="https://global.pydata.org/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="https://global.pydata.org/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="https://global.pydata.org/assets/js/main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-util.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>PyData Global 2020</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/schedule-style.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/responsive.css">
+	
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<script>
+  (function (w,d,s,o,f,js,fjs) {
+  w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+  js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+  js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+  }(window, document, 'script', 'plausible', 'https://plausible.io/js/p.js'));
+
+  plausible('page')
+</script>
+</head>
+
+
+<body>
+    <!-- Page Wrapper --> <style>
+	.meetup-link {
+		font-size: 11px !important;
+		margin-left: 15px
+	}
+	.meetup-list {
+		margin-bottom: 0px;
+	}
+</style>
+
+<div id="page-wrapper">
+
+	<!-- Header -->
+	<header id="header">
+                <script src="https://global.pydata.org/assets/js/jquery.min.js"></script>
+
+                <div id="header-title">
+                    <img id="header-logo" src="https://global.pydata.org/assets/images/pydata.png"><h1><a href="https://global.pydata.org//">PyData Global 2020</a></h1>
+                </div>
+		<nav id="nav">
+			<ul>
+				<li class="special">
+					<a href="#menu" class="menuToggle"><span>Menu</span></a>
+					<div id="menu">
+						<ul>
+							                                             
+							<li><a href="https://global.pydata.org/">Home</a></li>
+							                                                                                   
+							<li><a href="https://global.pydata.org/coc">Code of Conduct</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/community_sponsors">Community sponsors</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/format">Our Format</a></li>
+							        
+							<li><a href="https://global.pydata.org/pages/job_board">Job Board</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/newsletter">Newsletter</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/numfocus">About NumFocus</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/organizers">Organizing Committee</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/posters">Posters</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/program">Program</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/qa_panels">Q&amp;A Panels</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/quick_start">Quick Start</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/schedule">Live Event Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/short_talks">Short Talks</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sponsors">Sponsor PyData Global</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sprints">Sprints</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/talk_release_schedule">Talk Release Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/tickets">Tickets &amp; Scholarships</a></li>
+							   
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header><script>
+    function getCompareDate() {
+        var d = new Date(),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+        return [year, month, day].join('');
+    }
+    var future_elements = document.querySelectorAll('[future-date]');
+    Array.prototype.forEach.call(future_elements, function(el, i){
+        if(el.getAttribute('future-date').split('-').join('') < getCompareDate()) el.remove();
+    });
+
+    var past_elements = document.querySelectorAll('[past-date]');
+    Array.prototype.forEach.call(past_elements, function(el, i){
+        if(el.getAttribute('past-date').split('-').join('') > getCompareDate()) el.remove();
+    });
+</script>
+
+
+
+    <!-- Main -->
+    <article id="main">
+        <section class="wrapper style5">
+            <div class="inner talk-markdown-container">
+                <h1 style="margin-bottom: 0px">
+                    Cluster Inspection Toolkit
+                </h1>
+                <h4>
+                    Poster
+                </h4>
+
+                
+
+                <h4 id="see-poster"><a href="../assets/images/posters/250.png">See poster</a></h4>
+<p>Extracting meaningful insights after clustering a given data set is hard and laborsome.</p>
+
+<p>We propose a toolkit containing three techniques to derive meaningful insights from arbitrary clustering solutions or low-cardinality multi-class classifications in a shorter amount of time:</p>
+
+<ol>
+  <li>Cluster plotting: Feature inputs are usually high dimensional. To represent the cluster solution in a low-dimensional and thus plotable space Uniform-Manifold Approximation and Projection is employed.</li>
+  <li>Cluster assignment: Which features and what interactions drive the clustering? The cluster assignment can be reverse engineered in an interpretable manner using gradient-boosted trees and shaply values.</li>
+  <li>Feature inspection: The contribution of a specific feature on the global clustering space can be approximated by combining of a low-dimensional UMAP projection with a kernel ridge regression.</li>
+</ol>
+
+<p>To test our toolkit, we apply all three techniques to real data on AirBnb hostings (other data sets are possible) and extract relevant clusters and their descriptions. Moreover, we created a streamlit-based toolkit-interface which, together with python-code snippets, we would like to present in the poster session and to discuss with the PyData community.</p>
+
+<h2 id="speakers">Speakers</h2>
+
+<h3 id="annemarie-paul">Annemarie Paul</h3>
+
+<p>Hi, I am Annemarie and work as Senior Data Scientist at Ginkgo Analytics. I studied labor and education economics, as well as statistics and econometrics, and switched from Academia to the private sector about two yeas ago. I am Pyladies Hamburg co-organizer and Women in AI City Lead for Hamburg and I think that the python community is a great opportunity to learn and grow together. I am super curious how the global PyData community looks like and happy to get to know more people who are passionate about the universe of data analysis and about developing helpful data-driven real-world solutions.</p>
+
+<h3 id="sebastian-rabe">Sebastian Rabe</h3>
+
+
+
+            </div>
+        </section>
+    </article>
+
+    <!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		<li><a href="https://twitter.com/PyData" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+		       
+		<li><a href="https://github.com/PyDataGlobal" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+		  
+	</ul>
+	<ul class="copyright">
+		<li>© PyData Global 2020</li>
+		<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</li>
+		<li>Stock Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a>.</li>
+		<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a>.</li>
+	</ul>
+</footer>
+
+</div>
+
+<script src="https://global.pydata.org/assets/js/jquery.scrollex.min.js"></script>
+<script src="https://global.pydata.org/assets/js/jquery.scrolly.min.js"></script>
+<script src="https://global.pydata.org/assets/js/skel.min.js"></script>
+<script src="https://global.pydata.org/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="https://global.pydata.org/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="https://global.pydata.org/assets/js/main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-util.js"></script>
+
+
+</body>
+
+</html>

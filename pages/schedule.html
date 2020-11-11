@@ -1,0 +1,5571 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>PyData Global 2020</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/schedule-style.css">
+	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/assets/css/responsive.css">
+	
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<script>
+  (function (w,d,s,o,f,js,fjs) {
+  w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+  js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+  js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+  }(window, document, 'script', 'plausible', 'https://plausible.io/js/p.js'));
+
+  plausible('page')
+</script>
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+
+<body>
+    <!-- Page Wrapper --> <style>
+	.meetup-link {
+		font-size: 11px !important;
+		margin-left: 15px
+	}
+	.meetup-list {
+		margin-bottom: 0px;
+	}
+</style>
+
+<div id="page-wrapper">
+
+	<!-- Header -->
+	<header id="header">
+                <script src="https://global.pydata.org/assets/js/jquery.min.js"></script>
+
+                <div id="header-title">
+                    <img id="header-logo" src="https://global.pydata.org/assets/images/pydata.png"><h1><a href="https://global.pydata.org//">PyData Global 2020</a></h1>
+                </div>
+		<nav id="nav">
+			<ul>
+				<li class="special">
+					<a href="#menu" class="menuToggle"><span>Menu</span></a>
+					<div id="menu">
+						<ul>
+							                                             
+							<li><a href="https://global.pydata.org/">Home</a></li>
+							                                                                                   
+							<li><a href="https://global.pydata.org/coc">Code of Conduct</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/community_sponsors">Community sponsors</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/format">Our Format</a></li>
+							        
+							<li><a href="https://global.pydata.org/pages/job_board">Job Board</a></li>
+							            
+							<li><a href="https://global.pydata.org/pages/newsletter">Newsletter</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/numfocus">About NumFocus</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/organizers">Organizing Committee</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/posters">Posters</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/program">Program</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/qa_panels">Q&amp;A Panels</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/quick_start">Quick Start</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/schedule">Live Event Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/short_talks">Short Talks</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sponsors">Sponsor PyData Global</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/sprints">Sprints</a></li>
+							      
+							<li><a href="https://global.pydata.org/pages/talk_release_schedule">Talk Release Schedule</a></li>
+							  
+							<li><a href="https://global.pydata.org/pages/tickets">Tickets &amp; Scholarships</a></li>
+							   
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header><script>
+    function getCompareDate() {
+        var d = new Date(),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+        return [year, month, day].join('');
+    }
+    var future_elements = document.querySelectorAll('[future-date]');
+    Array.prototype.forEach.call(future_elements, function(el, i){
+        if(el.getAttribute('future-date').split('-').join('') < getCompareDate()) el.remove();
+    });
+
+    var past_elements = document.querySelectorAll('[past-date]');
+    Array.prototype.forEach.call(past_elements, function(el, i){
+        if(el.getAttribute('past-date').split('-').join('') > getCompareDate()) el.remove();
+    });
+</script>
+
+
+
+    <!-- Main -->
+    <article id="main">
+        <header>
+            <h2>Live Event Schedule</h2>
+            
+            
+            <p></p>
+        </header>
+        <section class="wrapper style5">
+            <div class="inner">
+
+                <script src="../assets/js/cookie.min.js"></script>
+
+<script src="../assets/js/moment.min.js"></script>
+
+<script src="../assets/js/moment-timezone-with-data.js"></script>
+
+<style>
+:root {
+    --border-light: #dfdfdf;
+    --foreground: #4E4852;
+}
+table.schedule-global {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  color: var(--foreground);
+  border: 1px solid var(--border-light);
+  border-bottom: 4px solid var(--border-light);
+  line-height: 24px;
+}
+table.schedule-global td, table.schedule-global th {
+  border: 1px solid var(--border-light);
+  padding: 3px 4px;
+}
+table.schedule-global td, table.schedule-global tr {
+  background: #FFF;
+}
+table.schedule-global tbody td {
+  font-size: 13px;
+  border: 1px solid var(--foreground);
+  vertical-align: middle;
+}
+table.schedule-global thead {
+  background: #FFFFFF;
+  border-bottom: 4px solid var(--border-light);
+}
+table.schedule-global thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--border-light);
+  border-left: 2px solid var(--border-light);
+}
+table.schedule-global thead th:first-child {
+  border-left: 0px solid var(--border-light);
+}
+
+table.schedule-global tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--border-light);
+  border-top: 4px solid var(--border-light);
+}
+table.schedule-global tfoot td {
+  font-size: 14px;
+}
+
+.schedule-global .major {
+  background: #b8d9e3;
+}
+
+.schedule-global .tutorial {
+  background: #fbe5d4;
+}
+
+.schedule-global .talks {
+  background: #ffffcc;
+}
+
+.schedule-global .party {
+  background: #ceffde;
+  padding-top: 20px;
+}
+
+.schedule-global .sponsor {
+  background: #f6d6ff;
+}
+
+/* Extracurriculars */
+.schedule-global .extra {
+  background: #98edf7;
+}
+
+.select-with-arrow {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.select-with-arrow:after {
+  content: '▼';
+  font: 17px "Consolas", monospace;
+  left: 265px;
+  top: 15px;
+  padding-left: 10px;
+  border-left: 1px solid #999;
+  position: absolute;
+  pointer-events: none;
+}
+
+.select-with-arrow select {
+  display: block;
+  width: 300px;
+  word-break: normal;
+  border: 1px solid #cccccc;
+}
+</style>
+
+<h1 id="schedule">Schedule</h1>
+
+<div class="select-with-arrow">
+    <select name="timezone" selected id="timezone-picker" onchange="updateTimezone(this.value)">
+        <option value="UTC">UTC</option>
+    </select>
+</div>
+
+<h2 id="saturday-november-7th"><a href="#sat-7">Saturday, November 7th</a></h2>
+
+<div class="panel-anchor" id="sat-7"></div>
+
+<table class="schedule-global">
+  <thead>
+    <tr>
+      <th style="text-align: center">Time (UTC)</th>
+      <th style="text-align: center">Major Events</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><span day="7" time="08:00-16:00"></span></td>
+      <td style="text-align: center" class="major">Humble Data Workshop - Session 1</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><span day="7" time="16:00-23:59"></span></td>
+      <td style="text-align: center" class="major">Humble Data Workshop - Session 2</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="wednesday-november-11th"><a href="#wed-11">Wednesday, November 11th</a></h2>
+<div class="panel-anchor" id="wed-11"></div>
+
+<table class="schedule-global">
+  <thead>
+    <tr>
+      <th style="text-align: center">Time (UTC)</th>
+      <th style="text-align: center">Major Events</th>
+      <th style="text-align: center">Extracurriculars</th>
+      <th style="text-align: center">Sponsor Events</th>
+      <th style="text-align: center">Talk Watch Parties (Room 1)</th>
+      <th style="text-align: center">Talk Watch Parties (Room 2)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="03:30"></span>
+<br>
+</td>
+      <td style="text-align: center" class="talks" rowspan="2">
+<a href="./talk_release_schedule#nov-11">Talks released</a>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="04:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/5">Quickly deploying explainable AI dashboards</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="04:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="05:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/58">Is a neural network better than Ash at detecting Team Rocket? If so, how?</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="05:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/51">TimeSeries Forecasting with ML Algorithms and there comparisons</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="06:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center"> </td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center"> </td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="06:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/361">Visions: An Open-Source Library for Semantic Data</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="07:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/286">Autonomous Vehicles See More With Thermal Imaging: Multi-modal thin cross section Object Detection</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="07:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="08:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#viz-1">Track Q&amp;A Panel: Data Visualization and Interpretability #1</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/16">Accelerating Differential Equations in R and Python using Julia’s SciML Ecosystem</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="08:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/26">An introduction to DataFrames.jl for pandas users</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="09:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="tutorial" rowspan="8">
+<br><br><br>
+<a href="../talks/130">Tutorial Office Hours, Solving large-scale inverse problems in Python with PyLops</a>
+<br><br><br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center"> </td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/408">Neo4j: Graph databases for machine learning</a> (Sponsor talk room #1)</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="09:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/114">Why I didn’t use deep learning for my image recognition problem</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/408">Neo4j: Graph databases for machine learning</a> (Sponsor talk room #1)</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="10:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/358">Feature drift monitoring as a service for machine learning models at scale</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="10:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/5">Quickly deploying explainable AI dashboards</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="11:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#julia-1">Track Q&amp;A Panel: Julia For Python &amp; Julia Users</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/321">DevOps for science: using continuous integration for rigorous and reproducible analysis</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="11:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/58">Is a neural network better than Ash at detecting Team Rocket? If so, how?</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/163">Skinny Pandas Riding on a Rocket</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="12:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/51">TimeSeries Forecasting with ML Algorithms and there comparisons</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="12:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/212">Using Algorithm X to re-analyse the last UK general election</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/408">Neo4j: Graph databases for machine learning</a> (Sponsor talk room #1)</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="13:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/361">Visions: An Open-Source Library for Semantic Data</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/336">Taking Care of Parameters So You Don’t Have to with ParamTools</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="13:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/286">Autonomous Vehicles See More With Thermal Imaging: Multi-modal thin cross section Object Detection</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="14:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="../talks/399">Keynote Watch Party: Is Coding Science? An interview with Wolfgang Kerzendorf</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/271">FlyBrainLab: An Interactive Open Computing Platform for Exploring the Drosophila Brain</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="14:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/16">Accelerating Differential Equations in R and Python using Julia’s SciML Ecosystem</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/356">Ensemble-X: Your personal strataGEM to build Ensembled Deep Learning Models for Medical Imaging</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="15:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./short_talks#short-talks-wed">Short Talks Watch Party #1</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/26">An introduction to DataFrames.jl for pandas users</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="15:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="16:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/114">Why I didn’t use deep learning for my image recognition problem</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="16:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/358">Feature drift monitoring as a service for machine learning models at scale</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="17:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="../talks/405">Keynote Fireside Chat with Wolfgang Kerzendorf and Jane Herriman</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="17:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/321">DevOps for science: using continuous integration for rigorous and reproducible analysis</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="18:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="extra" rowspan="4">
+<br>
+<a href="./posters#posters-wed">Poster Session</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/163">Skinny Pandas Riding on a Rocket</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="18:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="19:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#industry-1">Track Q&amp;A Panel: Lessons from Industry #1</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/212">Using Algorithm X to re-analyse the last UK general election</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="19:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/336">Taking Care of Parameters So You Don’t Have to with ParamTools</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="20:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="tutorial" rowspan="8">
+<br><br><br>
+<a href="../talks/43">Tutorial Office Hours, Probability Calibration: Latest Techniques</a>
+<br><br><br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/409">MetroStar Systems: Distributed Model Scoring with BERT</a> (Sponsor talk room #1)</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="20:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/271">FlyBrainLab: An Interactive Open Computing Platform for Exploring the Drosophila Brain</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/421">IBM: AutoML with IBM</a> (Sponsor talk room #2)</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="21:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/356">Ensemble-X: Your personal strataGEM to build Ensembled Deep Learning Models for Medical Imaging</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="21:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="22:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="11" time="22:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="thursday-november-12th"><a href="#thur-12">Thursday, November 12th</a></h2>
+<div class="panel-anchor" id="thur-12"></div>
+
+<table class="schedule-global">
+  <thead>
+    <tr>
+      <th style="text-align: center">Time (UTC)</th>
+      <th style="text-align: center">Major Events</th>
+      <th style="text-align: center" colspan="2">Extracurriculars</th>
+      <th style="text-align: center">Sponsor Events</th>
+      <th style="text-align: center">Talk Watch Parties (Room 1)</th>
+      <th style="text-align: center">Talk Watch Parties (Room 2)</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="03:30"></span>
+<br>
+</td>
+      <td style="text-align: center" class="talks" rowspan="2">
+<a href="./talk_release_schedule#nov-12">Talks released</a>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="04:00-05:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="06:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/410">OVHcloud: Accelerate the data-science journey with AI Training</a> (Sponsor talk room #1)</td>
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="06:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="07:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="07:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="08:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/151">ipywidgets for Education! Using Jupyter tools to make Math Visualization applets for the classroom</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="08:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/349">COVID-19 Visualizations, the Good, the Bad and the Malicious</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="09:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="tutorial" rowspan="8">
+<br><br><br>
+<a href="../talks/226">Tutorial Office Hours, Computer shows why: Visualizing deep learning for fun and profit</a>
+<br><br><br><br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="09:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/3">Opening the Black Box</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="10:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/100">Uncertainty Quantification for Online Learning via Hierarchical Incremental Gradient Descent</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="10:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="11:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#opensci-1">Track Q&amp;A Panel: Open Science #1</a>
+<br><br>
+</td>
+      <td style="text-align: center" colspan="2" class="extra" rowspan="17">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="../talks/289">TerminusDB Sprint</a> and <a href="../talks/56">VolEsti Sprint</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/238">What cyber security can teach us about COVID-19 testing</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="11:30"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center"> </td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/394">ML-Based Time Series Regression: 10 concepts we learned from Demand Forecasting</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/151">ipywidgets for Education! Using Jupyter tools to make Math Visualization applets for the classroom</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="12:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="12:30"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./short_talks#short-talks-thu">Short Talks Watch Party #2</a>
+<br><br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/38">Basic Pitfalls in Waveform Analysis</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/349">COVID-19 Visualizations, the Good, the Bad and the Malicious</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="13:00"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center"> </td>
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/412">Neo4j: Getting started with graph databases</a> (Sponsor Talk Room #1)</td>
+      <td style="text-align: center" class="party" rowspan="4">
+<a href="../talks/28">Entity matching at scale</a>
+<br><br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="4">
+<a href="../talks/3">Opening the Black Box</a>
+<br><br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="3">
+<span day="12" time="13:30"></span>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="3"> 
+<br><br>
+</td>
+      
+      <td style="text-align: center"> </td>
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/411">Mozn: Focal: Using Natural Language Processing (NLP) for sanctions screening.</a> (Sponsor Talk Room #1)</td>
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center"> </td>
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="14:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center"> </td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/107">Building a Successful Data Science Team</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/100">Uncertainty Quantification for Online Learning via Hierarchical Incremental Gradient Descent</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/414">Neo4j: Getting up and running with Graph Data Science Library</a> (Sponsor Talk Room #2)</td>
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="14:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/161">The Big Benefits of Small Data</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/238">What cyber security can teach us about COVID-19 testing</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="15:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center"> </td>
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/413">Blue Yonder: TBD</a> (Sponsor Talk Room #2)</td>
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="15:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/182">Monitoring machine learning models in production</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/394">ML-Based Time Series Regression: 10 concepts we learned from Demand Forecasting</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/412">Neo4j: Getting started with graph databases</a> (Sponsor Talk Room #1)</td>
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="16:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/88">Better Code for Data Science</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/38">Basic Pitfalls in Waveform Analysis</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="16:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center"> </td>
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/414">Neo4j: Getting up and running with Graph Data Science Library</a> (Sponsor Talk Room #1)</td>
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="17:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="extra" rowspan="16">
+<br><br><br><br><br><br><br>
+<a href="../talks/255">Kedro Sprint</a> and <a href="../talks/216">Napari Sprint</a>
+<br><br><br><br><br><br><br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/219">Thrifty Machine Learning</a>
+<br><br>
+</td>
+      <td class="party" rowspan="3">
+<a href="../talks/28">Entity matching at scale</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="17:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/395">Leveraging python and open-source for data-science on the buy-side.</a>
+<br><br>
+</td>
+      <td class="party" rowspan="3">
+<a href="../talks/107">Building a Successful Data Science Team</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="18:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center"> </td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/415">Apple: What is coremltools?</a> (Sponsor Talk Room #1)</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="18:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="extra" rowspan="4">
+<br>
+<a href="./posters#posters-thu">Poster Session</a>
+<br><br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td class="party" rowspan="3">
+<a href="../talks/161">The Big Benefits of Small Data</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="19:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      <td class="party" rowspan="3">
+<a href="../talks/182">Monitoring machine learning models in production</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="19:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="20:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="tutorial" rowspan="8">
+<br><br><br>
+<a href="../talks/299">Tutorial Office Hours, Panel: Dashboards for PyData</a>
+<br><br><br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td class="party" rowspan="3">
+<a href="../talks/88">Better Code for Data Science</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="20:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="4"> 
+<br><br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      <td class="party"><a href="../talks/219">Thrifty Machine Learning</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="21:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td> </td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="21:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/395">Leveraging python and open-source for data-science on the buy-side.</a>
+<br><br>
+</td>
+      <td> </td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="22:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="8">
+<br>
+<a href="./qa_panels#viz-2">Track Q&amp;A Panel: Data Visualization and Interpretability #2</a>
+<br><br><br><br><br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td> </td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center"> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="22:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td> </td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="23:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td> </td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="12" time="23:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td> </td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="friday-jack_o_lantern-november-13th"><a href="#fri-13">Friday<img class="emoji" title=":jack_o_lantern:" alt=":jack_o_lantern:" raw="🎃" src="https://github.githubassets.com/images/icons/emoji/unicode/1f383.png" style="vertical-align: middle; display: inline; max-width: 1em; visibility: hidden;" onload="this.style.visibility='visible'" onerror="this.replaceWith(this.getAttribute('raw'))">, November 13th</a></h2>
+<div class="panel-anchor" id="fri-13"></div>
+
+<table class="schedule-global">
+  <thead>
+    <tr>
+      <th style="text-align: center">Time (UTC)</th>
+      <th style="text-align: center">Major Events</th>
+      <th style="text-align: center">Extracurriculars</th>
+      <th style="text-align: center">Sponsor Events</th>
+      <th style="text-align: center">Talk Watch Parties (Room 1)</th>
+      <th style="text-align: center">Talk Watch Parties (Room 2)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="03:30"></span>
+<br>
+</td>
+      <td style="text-align: center" class="talks" rowspan="2">
+<a href="./talk_release_schedule#nov-13">Talks released</a>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="04:00-07:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="08:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#stats-1">Track Q&amp;A Panel: Causal and Statistical Methods #1</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/283">Climate Change: analyzing remote sensing data with Python</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="08:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/146">Using EOLearn to build a machine learning pipeline to detect plastics in the ocean.</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="09:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="tutorial" rowspan="8">
+<br><br><br>
+<a href="../talks/187">Tutorial Office Hours, Beautiful (ML) Data: Patterns &amp; Best Practice for effective Data solutions with PyTorch</a>
+<br><br><br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="09:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/139">Cardinal: A metrics based Active Learning framework</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="10:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/4">Streamlit: The Fastest Way to build Data Apps</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="10:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="11:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#industry-2">Track Q&amp;A Panel: Lessons from Industry #2</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/313">Data processing pipelines for Small Big Data</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="11:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/92">Transformation from Research Oriented Code into Machine Learning APIs with Python</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/283">Climate Change: analyzing remote sensing data with Python</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="12:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="12:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/6">How to review a model</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/146">Using EOLearn to build a machine learning pipeline to detect plastics in the ocean.</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="13:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center"> </td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/416">Elm: From Documents to Traffic Enforcement: Applying an object detection framework with YOLOV5/PyTorch</a> (Sponsor Talk Room #1)</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/253">Speed Up Your Data Processing: Parallel and Asynchronous Programming in Data Science</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/139">Cardinal: A metrics based Active Learning framework</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="13:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="14:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="extra" rowspan="4">
+<br>
+<a href="../talks/401">Executives at PyData</a>
+<br><br>
+</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/397">Snap ML: Accelerated, Accurate, Efficient Machine Learning</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/4">Streamlit: The Fastest Way to build Data Apps</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/417">Neo4j: A NetworkX vs Neo4j drag race</a> (Sponsor Talk Room #1)</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="14:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center"> </td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/418">Quansight: QHub Demonstration</a> (Sponsor Talk Room #2)</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/377">Parallel processing in Python: The current landscape</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/313">Data processing pipelines for Small Big Data</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="15:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./short_talks#short-talks-fri">Short Talks Watch Party #3</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center"> </td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="sponsor">
+<a href="../talks/419">Dataiku: An Introduction to Dataiku</a> (Sponsor Talk Room #1)</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="15:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/388">Visual data: abundant, relevant, labelled, cheap. Pick two?</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/92">Transformation from Research Oriented Code into Machine Learning APIs with Python</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center"><span day="13" time="16:00"></span></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/135">pandas.(to/from)_sql is simple but not fast</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/6">How to review a model</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="16:30"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="../talks/402">Keynote Watch Party: Multi-Label Classification with Human Rights Data, by Maria Gargiulo and Megan Price, PhD</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="17:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" class="extra" rowspan="16">
+<br><br><br><br><br><br><br><br>
+<a href="../talks/46">Flow Forecast Sprint</a> and <a href="../talks/49">SKtime Sprint</a>
+<br><br><br><br><br><br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/354">pyodide: scientific Python compiled to WebAssembly</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/253">Speed Up Your Data Processing: Parallel and Asynchronous Programming in Data Science</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="17:30"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="../talks/404">Keynote Fireside Chat with Maria Gargiulo and Megan Price, PhD</a>
+<br><br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/370">Dirty Data science: machine-learning on non-curated data</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/397">Snap ML: Accelerated, Accurate, Efficient Machine Learning</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="18:00"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="18:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/310">What’s new in pandas?</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/377">Parallel processing in Python: The current landscape</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="19:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#prod-1">Track Q&amp;A Panel: Data Science in Production #1</a>
+<br><br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/400">Growing Machine Learning Platforms in the Enterprise</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/388">Visual data: abundant, relevant, labelled, cheap. Pick two?</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="19:30"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="20:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="tutorial" rowspan="8">
+<br><br><br>
+<a href="../talks/170">Live Tutorial, Why and What If – Causal Analysis for Everyone</a>
+<br><br><br><br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/135">pandas.(to/from)_sql is simple but not fast</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="20:30"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/354">pyodide: scientific Python compiled to WebAssembly</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="21:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="21:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/370">Dirty Data science: machine-learning on non-curated data</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="22:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#opensci-2">Track Q&amp;A Panel: Open Science #2</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/310">What’s new in pandas?</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="22:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="23:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="extra" rowspan="4">
+<br><br>
+<a href="../talks/132">Hypothesis Sprint</a>
+<br>
+(Continues below)</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/400">Growing Machine Learning Platforms in the Enterprise</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="13" time="23:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="saturday-november-14th"><a href="#sat-14">Saturday, November 14th</a></h2>
+<div class="panel-anchor" id="sat-14"></div>
+
+<table class="schedule-global">
+  <thead>
+    <tr>
+      <th style="text-align: center">Time (UTC)</th>
+      <th style="text-align: center" colspan="2">Major Events</th>
+      <th style="text-align: center" colspan="2">Extracurriculars</th>
+      <th style="text-align: center">Talk Watch Parties (Room 1)</th>
+      <th style="text-align: center">Talk Watch Rooms (Room 2)</th>
+      
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="00:00-03:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" colspan="2" class="extra" rowspan="2">
+<a href="../talks/132">Hypothesis Sprint</a>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="03:30"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" class="talks" rowspan="2">
+<a href="./talk_release_schedule#nov-14">Talks released</a>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="04:00-07:30"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="08:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#misc-1">Track Q&amp;A Panel: Miscellaneous #1</a>
+<br>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/244">Taking a Close Look in the Mirror: Data Literacy for Data Experts</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="08:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/239">Complex Network Analysis with NetworkX</a>
+<br><br>
+</td>
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="09:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" class="tutorial" rowspan="8">
+<br>
+<br>
+<br>
+<a href="../talks/82">Tutorial Office Hours, A Gentle Introduction to Multi-Objective Optimisation</a>
+<br>
+<br>
+<br>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="09:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/206">Separation of ~concerns~ scales in software</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="10:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" class="extra" rowspan="4">
+<br>
+<a href="../talks/407">PyData Pub Quiz</a>
+<br>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/344">Computational Social Science with Python, and how Open Source transforms Academia and Research</a>
+<br><br>
+</td>
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="10:30"></span>
+<br>
+</td>
+      
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="11:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#prod-2">Track Q&amp;A Panel: Data Science in Production #2</a>
+<br>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/297">Scalable cross-filtering dashboards with Panel, HoloViews and hvPlot</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="11:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      <td style="text-align: center"> </td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/396">Building Large-Scale Multilingual Fuzzy Matching Framework</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/244">Taking a Close Look in the Mirror: Data Literacy for Data Experts</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="12:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="12:30"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" class="major" rowspan="4">
+<br>
+<a href="./short_talks#short-talks-sat">Short Talks Watch Party #4</a>
+<br>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/240">Safe, Fair and Ethical AI - A Practical Framework</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/239">Complex Network Analysis with NetworkX</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="13:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/280">Meditations on First Deployment: A Practical Guide to Responsible Data Science &amp; Engineering</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/206">Separation of ~concerns~ scales in software</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="13:30"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="14:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" colspan="2" class="extra" rowspan="4">
+<br>
+<a href="./posters#posters-sat">Poster Session</a>
+<br>
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/275">Responsible ML in Production</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/344">Computational Social Science with Python, and how Open Source transforms Academia and Research</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="14:30"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/166">Geometric and statistical methods in systems biology: the case of metabolic networks</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/297">Scalable cross-filtering dashboards with Panel, HoloViews and hvPlot</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="15:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="15:30"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/197">When features go missing, Bayes’ comes to the rescue</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/396">Building Large-Scale Multilingual Fuzzy Matching Framework</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="16:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" colspan="2" class="extra" rowspan="16">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="../talks/398">Pandas Sprint</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</td>
+      
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/266">Uncertainty Quantification in Neural Networks with Keras</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/240">Safe, Fair and Ethical AI - A Practical Framework</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="16:30"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="17:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" class="tutorial" rowspan="8">
+<br>
+<br>
+<br>
+<a href="../talks/363">Tutorial Office Hours, Exploratory Data Analysis with Pandas and Matplotlib</a>
+<br>
+<br>
+<br>
+<br>
+</td>
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/149">Bayesian Decision Science: A framework for making data informed decisions under uncertainty</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/280">Meditations on First Deployment: A Practical Guide to Responsible Data Science &amp; Engineering</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="17:30"></span>
+<br>
+</td>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/274">Modelling the extreme using quantile regression</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/275">Responsible ML in Production</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="18:00"></span>
+<br>
+</td>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="18:30"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center" class="party" rowspan="2">
+<a href="../talks/7">Modern Time Series Analysis with STUMPY</a>
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/166">Geometric and statistical methods in systems biology: the case of metabolic networks</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="19:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#misc-2">Track Q&amp;A Panel: Miscellaneous #2</a>
+<br><br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#acc-1">Track Q&amp;A Panel: Algorithmic Accountability</a>
+<br><br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td class="party" rowspan="3">
+<a href="../talks/197">When features go missing, Bayes’ comes to the rescue</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="19:30"></span>
+<br>
+</td>
+      
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="20:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" class="tutorial" rowspan="8">
+<br>
+<br>
+<br>
+<a href="../talks/177">Tutorial Office Hours, From 0 to Virtual Assistant (now with Human Handoff!)</a>
+<br>
+<br>
+<br>
+<br>
+</td>
+      <td style="text-align: center" class="extra" rowspan="16">
+<br><br><br><br><br><br><br><br>
+<a href="../talks/247">Modin Sprint</a>
+<br><br><br><br><br><br><br>
+</td>
+      <td style="text-align: center" class="extra" rowspan="4">
+<br>
+<a href="../talks/407">PyData Pub Quiz</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td class="party" rowspan="3">
+<a href="../talks/266">Uncertainty Quantification in Neural Networks with Keras</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="20:30"></span>
+<br>
+</td>
+      
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td class="party" rowspan="3">
+<a href="../talks/149">Bayesian Decision Science: A framework for making data informed decisions under uncertainty</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="21:00"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="21:30"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td class="party" rowspan="3">
+<a href="../talks/274">Modelling the extreme using quantile regression</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="22:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#stats-2">Track Q&amp;A Panel: Causal and Statistical Methods #2</a>
+<br>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td class="party" rowspan="3">
+<a href="../talks/7">Modern Time Series Analysis with STUMPY</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="22:30"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="23:00"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="14" time="23:30"></span>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+      
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="sunday-november-15th"><a href="#sun-15">Sunday, November 15th</a></h2>
+<div class="panel-anchor" id="sun-15"></div>
+
+<table class="schedule-global">
+  <thead>
+    <tr>
+      <th style="text-align: center">Time (UTC)</th>
+      <th style="text-align: center">Major Events</th>
+      <th style="text-align: center" colspan="2">Extracurriculars</th>
+      <th style="text-align: center">Talk Watch Parties (Room 1)</th>
+      <th style="text-align: center">Talk Watch Parties (Room 2)</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="03:30"></span>
+<br>
+</td>
+      <td style="text-align: center" class="talks" rowspan="2">
+<a href="./talk_release_schedule#nov-15">Talks released</a>
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="04:00-07:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="08:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/297">Scalable cross-filtering dashboards with Panel, HoloViews and hvPlot</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="08:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/298">Supercharge Scientific Computing in Python with Numba</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="09:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="tutorial" rowspan="8">
+<br><br><br>
+<a href="../talks/322">Tutorial Office Hours, Mine your own data - Analyze your Facebook Timeline</a>
+<br><br><br><br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="09:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/303">Inventing Curriculum using Python and spaCy</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="10:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/119">How to guarantee your machine learning model will fail on first contact with the real world.</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="10:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="11:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#misc-3">Track Q&amp;A Panel: Miscellaneous #3</a>
+<br><br>
+</td>
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/74">Rethinking Software Testing for Data Science</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="11:30"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" rowspan="2"><br></td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/123">Building one (multi-task) model to rule them all!</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="12:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" colspan="2" class="extra" rowspan="16">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="../talks/270">PyTorch Ignite Sprint</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="12:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/331">Hosting Dask: Challenges and Opportunities</a>
+<br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="13:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/297">Scalable cross-filtering dashboards with Panel, HoloViews and hvPlot</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/10">What Lies in Word Embeddings</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="13:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/298">Supercharge Scientific Computing in Python with Numba</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="14:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/233">Building fairer models for finance</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="14:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/303">Inventing Curriculum using Python and spaCy</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/208">Games, Algorithms, and Social Good</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="15:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/119">How to guarantee your machine learning model will fail on first contact with the real world.</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="15:30"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./short_talks#short-talks-sun">Short Talks Watch Party #5</a>
+<br><br>
+</td>
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/380">Open Source Fairness</a>
+<br><br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="16:00"></span>
+<br>
+</td>
+      
+      <td style="text-align: center" colspan="2" class="extra" rowspan="16">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="../talks/99">Matplotlib Sprint</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</td>
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/74">Rethinking Software Testing for Data Science</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      <td style="text-align: center"> </td>
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="16:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/123">Building one (multi-task) model to rule them all!</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="17:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="../talks/66">Keynote Watch Party: Tangible Steps Towards Algorithmic Accountability by Ayodele Odubela</a>
+<br><br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="17:30"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/331">Hosting Dask: Challenges and Opportunities</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="18:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="../talks/403">Keynote Fireside Chat with Ayodele Odubela</a>
+<br><br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/10">What Lies in Word Embeddings</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="18:30"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="19:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#prod-3">Track Q&amp;A Panel: Data Science in Production #3</a>
+<br><br>
+</td>
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/233">Building fairer models for finance</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="19:30"></span>
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      <td style="text-align: center" class="party" rowspan="3">
+<a href="../talks/208">Games, Algorithms, and Social Good</a>
+<br><br>
+</td>
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="20:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="tutorial" rowspan="8">
+<br><br><br>
+<a href="../talks/338">Tutorial Office Hours, Scaling Up Your Data Work With Dask</a>
+<br><br><br><br>
+</td>
+      <td style="text-align: center" class="extra" rowspan="16">
+<br><br><br><br><br><br><br>
+<a href="../talks/375">NetworkX Sprint</a>
+<br><br><br><br><br><br><br><br>
+</td>
+      <td style="text-align: center" rowspan="12"> 
+<br><br><br><br><br><br><br><br><br><br><br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="20:30"></span>
+<br>
+</td>
+      
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td class="party" rowspan="3">
+<a href="../talks/380">Open Source Fairness</a>
+<br><br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="21:00"></span>
+<br>
+</td>
+      
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="21:30"></span>
+<br>
+</td>
+      
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="22:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="major" rowspan="4">
+<br>
+<a href="./qa_panels#acc-1">Track Q&amp;A Panel: Algorithmic Accountability</a>
+<br><br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="22:30"></span>
+<br>
+</td>
+      
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="23:00"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      <td style="text-align: center" class="extra" rowspan="4">
+<br>
+<a href="../talks/222">Bokeh Sprint</a>
+<br>
+(Continues below)
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="15" time="23:30"></span>
+<br>
+</td>
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      
+      
+      <td style="text-align: center" rowspan="2"> 
+<br>
+</td>
+      <td rowspan="2"> 
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+      
+      
+      
+      
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="monday-november-16th"><a href="#mon-16">Monday, November 16th</a></h2>
+<div class="panel-anchor" id="mon-16"></div>
+
+<table class="schedule-global">
+  <thead>
+    <tr>
+      <th style="text-align: center">Time (UTC)</th>
+      <th style="text-align: center">Extracurriculars</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center" rowspan="2">
+<span day="16" time="00:00-03:00"></span>
+<br>
+</td>
+      <td style="text-align: center" class="extra" rowspan="2">
+<a href="../talks/222">Bokeh Sprint</a> (continued)
+<br>
+</td>
+    </tr>
+    <tr>
+      
+      
+    </tr>
+  </tbody>
+</table>
+
+<script type="text/javascript">
+    var dateDiff = function(day, time, timezone) {
+  const utcDay = moment.utc(`${day} ${time}:00`).date();
+  const tzDay = moment.utc(`${day} ${time}:00`).tz(timezone).date();
+
+  return tzDay - utcDay;
+};
+
+var localize = function(day, time, timezone) {
+  const diff = dateDiff(day, time, timezone);
+  const newTime = moment.utc(`${day} ${time}:00`).tz(timezone).format('HH:mm')
+  if (diff > 0) {
+    return `(+${diff} day) ${newTime}`
+  } else if (diff < 0){
+    return `(-${Math.abs(diff)} day) ${newTime}`
+  }
+  return newTime;
+};
+
+var rememberTimezone = function(timezone) {
+  Cookies.set('pydata_schedule_timezone', timezone, { expires: 90, sameSite: 'strict' });
+}
+
+var recallTimezone = function() {
+  return Cookies.get('pydata_schedule_timezone')
+}
+
+var updateTimezone = function(newTimezone) {
+  // Localize every row in the schedule
+  $(".schedule-global tbody tr td:first-child span").each(function(index) {
+    const dayString = $(this).attr("day")
+    const day = `2020-11-${dayString.length == 1 ? '0' : ''}${dayString}`
+    const utcTime = $(this).attr("time");
+    const rx = /[0-2][0-9]:[0-5][0-9]/g;
+    const newText = utcTime.replace(rx, t => localize(day, t, newTimezone));
+    $(this).text(newText);
+  });
+
+
+  // Add timezone to header
+  const shortTimezone = newTimezone.split('/').slice(-1).pop().replace('_', ' ');
+  $(".schedule-global thead tr th:first-child").each(function(index) {
+    $(this).text(`Time (${shortTimezone})`);
+  });
+
+  rememberTimezone(newTimezone);
+}
+
+const timezone = moment.tz.names();
+const picker = $('#timezone-picker');
+for (var i = 0; i < timezone.length; i++) {
+  picker.append('<option value="' + timezone[i] + '">' + timezone[i] + '</option>');
+}
+const previousTZ = recallTimezone() || "UTC";
+if (typeof previousTZ !== "undefined") {
+  updateTimezone(previousTZ);
+  picker.val(previousTZ);
+}
+
+</script>
+
+
+
+            </div>
+        </section>
+    </article>
+
+    <!-- Footer -->
+<footer id="footer">
+	<ul class="icons">
+		
+		<li><a href="https://twitter.com/PyData" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+		       
+		<li><a href="https://github.com/PyDataGlobal" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+		  
+	</ul>
+	<ul class="copyright">
+		<li>© PyData Global 2020</li>
+		<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>.</li>
+		<li>Stock Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a>.</li>
+		<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a>.</li>
+	</ul>
+</footer>
+
+</div>
+
+<script src="https://global.pydata.org/assets/js/jquery.scrollex.min.js"></script>
+<script src="https://global.pydata.org/assets/js/jquery.scrolly.min.js"></script>
+<script src="https://global.pydata.org/assets/js/skel.min.js"></script>
+<script src="https://global.pydata.org/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="https://global.pydata.org/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="https://global.pydata.org/assets/js/main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-main.js"></script>
+<script src="https://global.pydata.org/assets/js/schedule-util.js"></script>
+
+
+</body>
+
+</html>

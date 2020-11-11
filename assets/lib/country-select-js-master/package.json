@@ -1,0 +1,35 @@
+{
+	"name": "country-select-js",
+	"version": "2.0.1",
+	"description": "A jQuery plugin for selecting a country",
+	"main": "build/js/countrySelect.js",
+	"repository": {
+		"type": "git",
+		"url": "https://mrmarkfrench@github.com/mrmarkfrench/country-select-js.git"
+	},
+	"keywords": [
+		"country",
+		"international",
+		"jQuery"
+	],
+	"scripts": {
+		"build": "gulp build"
+	},
+	"author": "Mark French",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mrmarkfrench/country-select-js/issues"
+	},
+	"homepage": "https://github.com/mrmarkfrench/country-select-js",
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^4.0.0",
+		"gulp-clean-css": "^3.3.1",
+		"gulp-minify": "^1.0.0",
+		"gulp-notify": "^3.0.0",
+		"gulp-rename": "^1.2.2",
+		"gulp-sass": "^3.1.0",
+		"gulp-webserver": "^0.9.1",
+		"run-sequence": "^2.2.1"
+	}
+}
