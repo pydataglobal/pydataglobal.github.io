@@ -13,6 +13,7 @@ title: Q&A Panels
 <div class="panel-anchor" id="acc-1"></div>
 ## Panel #1
 #### [Go to NumFOCUS Academy page](./redirects/q&a/accountability_1)
+* **[What Lies in Word Embeddings](../talks/10)**, by Vincent D. Warmerdam
 * **[Safe, Fair and Ethical AI - A Practical Framework](../talks/240)**, by Tariq Rashid
 * **[Meditations on First Deployment: A Practical Guide to Responsible Data Science & Engineering](../talks/280)**, by Alejandro Saucedo
 * **[Responsible ML in Production](../talks/275)**, by Catherine Nelson and Hannes Hapke
@@ -20,7 +21,6 @@ title: Q&A Panels
 <div class="panel-anchor" id="acc-2"></div>
 ## Panel #2
 #### [Go to NumFOCUS Academy page](./redirects/q&a/accountability_2)
-* **[What Lies in Word Embeddings](../talks/10)**, by Vincent D. Warmerdam
 * **[Building fairer models for finance](../talks/233)**, by Andrew Weeks
 * **[Games, Algorithms, and Social Good](../talks/208)**, by Manojit Nandi
 * **[Open Source Fairness](../talks/380)**, by Aileen Nielsen
