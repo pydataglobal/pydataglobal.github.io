@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .p30 {
+      /* grid-column: span 6; */
+      width: 50% !important;
+      display: inline-block;
+    }
+    
+  }
+  @media screen and (max-width: 480px) {
+    .p30 {
+      /* grid-column: span 12; */
+      width: 100% !important;
+      display: inline-block;
+    }
+
+  }
